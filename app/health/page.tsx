@@ -1,5 +1,5 @@
 import { authMode } from '@/lib/auth';
-import { activeAdapter, getDb } from '@/lib/db';
+import { activeAdapter, canKeepLocalSessions, getDb } from '@/lib/db';
 import { MissingTableError } from '@/lib/db/errors';
 import { dbAdapter, hasSupabase, settings } from '@/lib/env';
 
@@ -27,6 +27,20 @@ async function check(): Promise<Health[]> {
         ? 'supabase (Postgres)'
         : `local (JSON files under .data/) — requested "${dbAdapter()}", Supabase creds ${hasSupabase() ? 'present' : 'missing'}`,
   });
+
+  // 1b. Whether this server can keep a session at all. The local adapter is
+  //     right on a machine you control and useless on a serverless instance,
+  //     whose files are read-only and thrown away with the instance.
+  if (adapter === 'local') {
+    const canStore = await canKeepLocalSessions();
+    checks.push({
+      label: 'Where sessions are stored',
+      ok: canStore,
+      detail: canStore
+        ? 'local files — this server can keep them'
+        : 'this server cannot keep files, so a session would be lost. Set DB_ADAPTER=supabase.',
+    });
+  }
 
   // 2. Is the catalog seeded?
   try {

@@ -207,8 +207,12 @@ export async function DELETE(request: Request): Promise<Response> {
 
 function errorResponse(err: unknown): Response {
   if (err instanceof MissingEnvError) {
-    // Never echo the value, only which key is missing.
-    return Response.json({ error: 'server_not_configured', key: err.key }, { status: 503 });
+    // Never echo the value, only which key is missing — and the message says
+    // what to do about it.
+    return Response.json(
+      { error: 'server_not_configured', key: err.key, message: err.message },
+      { status: 503 },
+    );
   }
   const message = err instanceof Error ? err.message : 'unexpected error';
   return Response.json({ error: 'server_error', message }, { status: 500 });

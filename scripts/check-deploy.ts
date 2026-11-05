@@ -8,9 +8,10 @@
  * the deployed site the questions that catch those, and prints one line per
  * answer.
  *
- * It only reads. The one POST it sends is refused before any work happens —
- * a placement with no request behind it — so no picture is drawn, no session
- * is created and no token is spent.
+ * It reads, and it makes exactly one thing: a guest session, which it removes
+ * again before it finishes. The one POST it sends that could cost money — a
+ * placement with no request behind it — is refused before any work happens,
+ * so no picture is drawn and no token is spent.
  *
  *   npm run check:deploy -- https://your-app.vercel.app
  *   npm run check:deploy -- --url=https://your-app.vercel.app
@@ -134,6 +135,15 @@ function checkHealth(html: string): void {
   const accounts = detailOf(html, 'Accounts');
   record('the accounts', accounts !== null, accounts ?? 'the page did not say', true);
 
+  const storage = detailOf(html, 'Where sessions are stored');
+  if (storage !== null) {
+    record(
+      'where sessions are stored',
+      !storage.includes('cannot keep files'),
+      storage,
+    );
+  }
+
   const secret = detailOf(html, 'CLEANUP_SECRET');
   record(
     'the retention sweep',
@@ -174,6 +184,29 @@ async function checkPictures(base: string): Promise<void> {
 }
 
 async function checkGuards(base: string): Promise<void> {
+  // A session has to be creatable — this is the first thing the chat page
+  // does, and the first thing that breaks when the deployment cannot store
+  // anything.
+  const created = await fetch(`${base}/api/session`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: '{}',
+  });
+  const text = await created.text();
+
+  if (created.status !== 201) {
+    record('a session can be created', false, `${created.status} ${text.slice(0, 160)}`);
+  } else {
+    // Put it back the way it was: the check leaves no session behind.
+    try {
+      const id = (JSON.parse(text) as { session_id: string }).session_id;
+      await fetch(`${base}/api/session?session_id=${encodeURIComponent(id)}`, { method: 'DELETE' });
+    } catch {
+      // The session is there and could not be read back — say so and move on.
+    }
+    record('a session can be created', true, `${created.status} — created, then removed again`);
+  }
+
   // The sweep must be closed to anyone without the token.
   const cleanup = await fetch(`${base}/api/cleanup`);
   record(

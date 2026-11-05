@@ -10,9 +10,34 @@
  */
 
 export class MissingEnvError extends Error {
-  constructor(readonly key: string) {
-    super(`Missing environment variable: ${key}. Copy .env.example to .env.local and fill it in.`);
+  constructor(
+    readonly key: string,
+    detail?: string,
+  ) {
+    super(
+      detail ??
+        `Missing environment variable: ${key}. Copy .env.example to .env.local and fill it in.`,
+    );
     this.name = 'MissingEnvError';
+  }
+}
+
+/**
+ * The server cannot keep anything between requests.
+ *
+ * The local adapter writes files, and a serverless instance keeps its files
+ * read-only apart from `/tmp` — and `/tmp` is thrown away with the instance,
+ * so a session written there would be gone before anyone came back. The
+ * deployment needs Postgres, so this names the setting that is missing
+ * instead of letting the filesystem say "permission denied".
+ *
+ * It is a `MissingEnvError` in everything but the wording: the routes that
+ * already answer 503 for a missing setting answer 503 for this too.
+ */
+export class NoWritableStorageError extends MissingEnvError {
+  constructor(key: string, detail: string) {
+    super(key, detail);
+    this.name = 'NoWritableStorageError';
   }
 }
 

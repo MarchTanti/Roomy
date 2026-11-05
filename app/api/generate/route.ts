@@ -319,7 +319,10 @@ export async function POST(request: Request): Promise<Response> {
     }
   } catch (err) {
     if (err instanceof MissingEnvError) {
-      return Response.json({ error: 'server_not_configured', key: err.key }, { status: 503 });
+      return Response.json(
+        { error: 'server_not_configured', key: err.key, message: err.message },
+        { status: 503 },
+      );
     }
     console.error('[api/generate] failed:', err instanceof Error ? err.stack : err);
     return Response.json({ error: 'generation_failed' }, { status: 500 });

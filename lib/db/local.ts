@@ -19,7 +19,7 @@ import { randomUUID } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { settings } from '../env';
+import { NoWritableStorageError, settings } from '../env';
 import {
   emptySessionState,
   normalizeSessionState,
@@ -75,11 +75,46 @@ async function readCollection<T>(collection: Collection): Promise<T[]> {
 
 /** Write via a temp file + rename so a crash mid-write cannot truncate a collection. */
 async function writeCollection<T>(collection: Collection, rows: T[]): Promise<void> {
-  await fs.mkdir(DATA_DIR, { recursive: true });
-  const target = fileFor(collection);
-  const tmp = `${target}.${process.pid}.tmp`;
-  await fs.writeFile(tmp, `${JSON.stringify(rows, null, 2)}\n`, 'utf8');
-  await fs.rename(tmp, target);
+  try {
+    await fs.mkdir(DATA_DIR, { recursive: true });
+    const target = fileFor(collection);
+    const tmp = `${target}.${process.pid}.tmp`;
+    await fs.writeFile(tmp, `${JSON.stringify(rows, null, 2)}\n`, 'utf8');
+    await fs.rename(tmp, target);
+  } catch (err) {
+    if (isUnwritable(err)) {
+      throw new NoWritableStorageError(
+        'DB_ADAPTER',
+        'The local adapter writes files, and this server refused the write. It cannot keep a session between requests, so the deployment needs DB_ADAPTER=supabase, with SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.',
+      );
+    }
+    throw err;
+  }
+}
+
+/** True when the server refused the write because it cannot keep files. */
+function isUnwritable(err: unknown): boolean {
+  if (typeof err !== 'object' || err === null) return false;
+  const code = (err as NodeJS.ErrnoException).code;
+  return code === 'EROFS' || code === 'EACCES' || code === 'EPERM';
+}
+
+/**
+ * Whether this server can keep files between requests.
+ *
+ * The status page asks, because "the local adapter is live" is only a problem
+ * on a server that cannot hold a file — on a laptop it is exactly right.
+ */
+export async function canStoreLocally(): Promise<boolean> {
+  try {
+    await fs.mkdir(DATA_DIR, { recursive: true });
+    const probe = path.join(DATA_DIR, '.probe');
+    await fs.writeFile(probe, '', 'utf8');
+    await fs.unlink(probe);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 /** Serialises read-modify-write sequences inside this process. */

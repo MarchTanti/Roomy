@@ -281,7 +281,10 @@ export async function POST(request: Request): Promise<Response> {
     });
   } catch (err) {
     if (err instanceof MissingEnvError) {
-      return Response.json({ error: 'server_not_configured', key: err.key }, { status: 503 });
+      return Response.json(
+        { error: 'server_not_configured', key: err.key, message: err.message },
+        { status: 503 },
+      );
     }
     // Log server-side only. The message is returned to the client, but never
     // the stack — and per the spec we must not log image contents or the

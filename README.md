@@ -642,7 +642,12 @@ hidden:
 - The rate limiter (`lib/rate-limit.ts`) keeps its window **in the process's
   memory**. On Vercel several instances run at once, so the effective limit is
   20 turns/hour *per instance*, not per person. The same is true of the local
-  database adapter, which is why `DB_ADAPTER=supabase` is not optional there.
+  database adapter, which is why `DB_ADAPTER=supabase` is not optional there:
+  the local adapter writes JSON files, and a serverless instance's files are
+  read-only apart from `/tmp` — and `/tmp` goes away with the instance. A
+  deployment that fell back to it cannot keep a session, so the app says so
+  in plain words (503, `server_not_configured`) instead of failing with
+  "permission denied" from the filesystem.
 - The retention sweep is driven by the daily cron in `vercel.json` — see
   step 5.
 
@@ -715,12 +720,13 @@ npm run check:deploy -- https://your-app.vercel.app
 ```
 
 It asks the deployed site the questions that catch a broken deployment — the
-adapter it is really running on, whether the catalogue arrived, whether the
-pictures and the style cards shipped with the code, whether the retention
-sweep is still locked, and whether the rule that a placement needs a request
-is the one that is deployed. It only reads; the one POST it sends is refused
-before any work happens, so it costs nothing. Exit code 0 means everything
-passed.
+adapter it is really running on, whether it can store a session at all,
+whether the catalogue arrived, whether the pictures and the style cards
+shipped with the code, whether the retention sweep is still locked, and
+whether the rule that a placement needs a request is the one that is
+deployed. It creates one guest session and removes it again; the one POST
+that could cost money is refused before any work happens. Exit code 0 means
+everything passed.
 
 By hand, the same ground:
 
