@@ -1358,3 +1358,4 @@ can keep the log of their conversations (`/history`), and the assistant grew
 a second half — **room styling**: it asks what is unclear, has the plan
 confirmed, and draws a whole room made of real catalogue furniture, ready to
 be adjusted.
+# Roomy
