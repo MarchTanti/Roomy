@@ -1,14 +1,20 @@
 /**
  * The retention sweep.
  *
- *   POST /api/cleanup   Authorization: Bearer <CLEANUP_SECRET>
+ *   POST /api/cleanup   Authorization: Bearer <secret>   — called by hand
+ *   GET  /api/cleanup   Authorization: Bearer <secret>   — called by Vercel Cron
  *
  * Deletes every session — and its photos — that is older than
  * `RETENTION_DAYS` days. This is the "scheduled 7-day cleanup" of the spec:
  * nothing about a user's room photo should outlive the session by more than a
  * week.
  *
- * The endpoint is **off** unless `CLEANUP_SECRET` is set. With no secret there
+ * Vercel invokes a cron path with a **GET**, and sends the value of
+ * `CRON_SECRET` back as the bearer token. `CLEANUP_SECRET` is the same idea
+ * under our own name; either one switches the sweep on, so a deployment sets
+ * one variable rather than two that have to match.
+ *
+ * The endpoint is **off** unless one of them is set. With no secret there
  * is nothing to compare the token against, and an open "delete everything
  * older than N days" endpoint is not a thing to leave on the internet.
  *
@@ -25,16 +31,26 @@ import { getPhotoStore } from '@/lib/storage/store';
 
 export const dynamic = 'force-dynamic';
 
+/** The cron entry point. Vercel Cron always calls a path with a GET. */
+export async function GET(request: Request): Promise<Response> {
+  return sweep(request);
+}
+
+/** The same sweep, triggered by hand. */
 export async function POST(request: Request): Promise<Response> {
-  const secret = settings.cleanupSecret();
-  if (!secret) {
+  return sweep(request);
+}
+
+async function sweep(request: Request): Promise<Response> {
+  const secrets = settings.cleanupSecrets();
+  if (secrets.length === 0) {
     return Response.json(
       { error: 'cleanup_not_configured', message: 'CLEANUP_SECRET is not set — the sweep is off' },
       { status: 503 },
     );
   }
 
-  if (!authorized(request, secret)) {
+  if (!authorized(request, secrets)) {
     return Response.json({ error: 'unauthorized' }, { status: 401 });
   }
 
@@ -69,10 +85,12 @@ export async function POST(request: Request): Promise<Response> {
  * whatever the length of the token — and the length of the secret cannot leak
  * through the time the answer takes.
  */
-function authorized(request: Request, secret: string): boolean {
+function authorized(request: Request, secrets: string[]): boolean {
   const header = request.headers.get('authorization') ?? '';
   const token = header.startsWith('Bearer ') ? header.slice('Bearer '.length).trim() : '';
   const given = createHash('sha256').update(token).digest();
-  const expected = createHash('sha256').update(secret).digest();
-  return timingSafeEqual(given, expected);
+  return secrets.some((secret) => {
+    const expected = createHash('sha256').update(secret).digest();
+    return timingSafeEqual(given, expected);
+  });
 }

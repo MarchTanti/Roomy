@@ -233,7 +233,8 @@ not block the catalog step.
 | `IMAGE_QUOTA_PER_SESSION`  | generated images per session                   | `10`        |
 | `ROOM_PHOTOS_PER_SESSION`  | room photo uploads per session                | `4`         |
 | `GENERATION_TIMEOUT_MS`    | how long one image generation may take         | `90000`     |
-| `CLEANUP_SECRET`           | the token that authorises `POST /api/cleanup`   | — (off)     |
+| `CLEANUP_SECRET`           | the token that authorises `/api/cleanup`       | — (off)     |
+| `CRON_SECRET`              | the same, under the name Vercel looks for      | — (off)     |
 | `RETENTION_DAYS`           | how long a session and its photos are kept      | `7`         |
 | `ROOMY_PUBLIC_DIR`         | where the catalogue's pictures are read from   | `./public`  |
 
@@ -383,7 +384,7 @@ three times (IKEA sells most pieces in six colours).
 │   │   │   ├── me/route.ts        # Who is signed in
 │   │   │   └── register/route.ts  # Create an account, set the cookie
 │   │   ├── chat/route.ts         # One chat turn, streamed as SSE
-│   │   ├── cleanup/route.ts      # The retention sweep, behind a secret
+│   │   ├── cleanup/route.ts      # The retention sweep, behind a secret (GET + POST)
 │   │   ├── generate/route.ts     # Room photo + product → a placed picture
 │   │   ├── history/route.ts      # The signed-in person's conversations
 │   │   ├── image/[id]/route.ts   # Serves one photo to its owning session
@@ -514,13 +515,14 @@ three times (IKEA sells most pieces in six colours).
 │       ├── 0003_auth.sql     # users, auth_sessions, sessions.user_id
 │       ├── 0004_product_fk_set_null.sql  # The product references' delete rule
 │       └── 0005_session_state_design_brief.sql  # The state default, with the brief
-├── tests/                     # Vitest — 610 tests, no network
+├── tests/                     # Vitest — 616 tests, no network
 ├── results.json               # The last step-8 run (rewritten by `npm run results`)
 ├── REPORT.md                  # The curated report of that run
 ├── next.config.ts
 ├── package.json
 ├── postcss.config.mjs
 ├── tsconfig.json
+├── vercel.json                # The daily cron that runs the retention sweep
 └── vitest.config.ts
 ```
 
@@ -615,8 +617,8 @@ build succeeds even with an empty environment. The secrets are needed at
 runtime, when a request comes in.
 
 `AUTH_MODE` can stay empty — it follows `DB_ADAPTER`, so with Supabase in
-place the accounts are Supabase Auth's. `CLEANUP_SECRET` is needed only if the
-retention sweep is called over HTTP (see step 5).
+place the accounts are Supabase Auth's. `CRON_SECRET` (or `CLEANUP_SECRET`) is
+needed only if the retention sweep is called over HTTP (see step 5).
 
 The rest of the variables in `.env.example` all have defaults, and the ones
 that matter most on a server are the same ones they are locally:
@@ -639,7 +641,8 @@ hidden:
   memory**. On Vercel several instances run at once, so the effective limit is
   20 turns/hour *per instance*, not per person. The same is true of the local
   database adapter, which is why `DB_ADAPTER=supabase` is not optional there.
-- The retention sweep has no scheduler of its own — see step 5.
+- The retention sweep is driven by the daily cron in `vercel.json` — see
+  step 5.
 
 ### 3. The database and the photos must be Supabase
 
@@ -669,17 +672,28 @@ many products are in the catalogue and which credentials arrived — if it says
 
 ### 5. The retention sweep
 
-`POST /api/cleanup` with `Authorization: Bearer <CLEANUP_SECRET>` deletes
-everything older than `RETENTION_DAYS`. Vercel's own cron sends **GET**
-requests and the route answers POST only, so a Vercel cron cannot call it as
-it stands. Two ways round that:
+`GET /api/cleanup` with `Authorization: Bearer <secret>` deletes everything
+older than `RETENTION_DAYS`. The same route answers **POST**, so it can still
+be triggered by hand.
 
-- run `npm run cleanup` from your own machine on a schedule (a cron on the
-  machine, or a GitHub Action with the Supabase credentials as secrets) — this
-  needs no `CLEANUP_SECRET` at all, because the script runs where the
-  credentials are; or
-- add a GET handler to `app/api/cleanup/route.ts` that accepts Vercel's
-  `CRON_SECRET` bearer and then point a `vercel.json` cron at it.
+Vercel's own cron sends **GET** requests and sends back the value of
+`CRON_SECRET` as the bearer token, so the route accepts either that name or
+`CLEANUP_SECRET` — one variable switches the sweep on, not two that have to
+match. `vercel.json` already points a daily cron at the path:
+
+```json
+{ "crons": [{ "path": "/api/cleanup", "schedule": "0 3 * * *" }] }
+```
+
+03:00 UTC — 10:00 in Bangkok — once a day, which is all a Hobby account
+allows (a cron expression that fires more than once a day fails the
+deployment). To turn it on, set `CRON_SECRET` to a random string of at least
+16 characters in the Vercel environment. Without it the endpoint answers
+503 and does nothing; a sweep you did not mean to run is worse than no sweep.
+
+The other way — `npm run cleanup` from your own machine on a schedule (a cron
+on the machine, or a GitHub Action with the Supabase credentials as secrets) —
+needs no secret at all, because the script runs where the credentials are.
 
 ### 6. How long a request may take
 
@@ -764,11 +778,11 @@ generated pictures per session, and a new session starts the count again.
   from the database, and the rows are kept if the storage removal fails. A
   deletion that only removed the rows would leave the room photo in the
   bucket.
-- The retention sweep is off unless `CLEANUP_SECRET` is set, and the token is
-  compared in constant time. The two `SECURITY DEFINER` helpers in
-  `0001_init.sql` are `SECURITY DEFINER`, so `0002_retention.sql` revokes
-  their default `EXECUTE` grant to `PUBLIC` and gives it to `service_role`
-  only.
+- The retention sweep is off unless `CLEANUP_SECRET` or `CRON_SECRET` is set,
+  and the token is compared in constant time. The two `SECURITY DEFINER`
+  helpers in `0001_init.sql` are `SECURITY DEFINER`, so `0002_retention.sql`
+  revokes their default `EXECUTE` grant to `PUBLIC` and gives it to
+  `service_role` only.
 - Replacing a room photo clears the measurement taken on the old one.
 - The room photo reaches exactly two places: the chat model (as `inlineData`,
   for the analysis) and the image provider (as `inlineData`, for the edit).
@@ -1063,17 +1077,19 @@ still holds.
 7) — the photos first, then the rows, exactly like the button. It runs on the
 machine that holds the credentials, so it needs no token.
 
-`POST /api/cleanup` is the same sweep over HTTP, for a scheduler to call:
+`GET /api/cleanup` is the same sweep over HTTP, for a scheduler to call —
+`POST` does the same thing, for a hand-triggered run:
 
 ```
 curl -X POST http://localhost:3000/api/cleanup \
   -H "Authorization: Bearer $CLEANUP_SECRET"
 ```
 
-The endpoint is **off** while `CLEANUP_SECRET` is unset (503): with no secret
-there is nothing to compare the token against, and an open "delete everything
-older than N days" endpoint should not be reachable from the internet. The
-token is compared in constant time, and the secret is never echoed back.
+The endpoint is **off** while neither `CLEANUP_SECRET` nor `CRON_SECRET` is
+set (503): with no secret there is nothing to compare the token against, and
+an open "delete everything older than N days" endpoint should not be
+reachable from the internet. The token is compared in constant time, and the
+secret is never echoed back.
 
 One session that fails does not stop the sweep — the others are still worth
 deleting, and the failures are listed in the response so they can be looked
@@ -1259,10 +1275,12 @@ numbers with it.
   own counters, so the effective limit becomes N × 20 turns per hour. A
   restart also empties the counters. Moving them to Postgres or Redis is a
   drop-in replacement behind the same three functions.
-- **Nothing calls the cleanup by itself.** `npm run cleanup` and
-  `POST /api/cleanup` exist, but a scheduler has to run one of them — a cron
-  entry, a Supabase scheduled function, or a platform cron. Until one does,
-  sessions and their photos stay until the user deletes them.
+- **The cleanup has to be switched on.** `vercel.json` points a daily cron at
+  `/api/cleanup`, but that cron only sweeps once `CRON_SECRET` is set in the
+  environment — without it the endpoint answers 503 and deletes nothing. The
+  sweep is also idempotent, so a missed or doubled cron run costs nothing.
+  `npm run cleanup` still needs a cron of its own on the machine that holds
+  the credentials.
 - `supabase/migrations/0002_retention.sql` has to be run in the SQL editor
   before the live Supabase project is safe: in Postgres a new function is
   `EXECUTE`-able by `PUBLIC`, and both helpers are `SECURITY DEFINER`, so

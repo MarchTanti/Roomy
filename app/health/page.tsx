@@ -56,13 +56,13 @@ async function check(): Promise<Health[]> {
 
   // 4. The retention sweep. The secret's value is never shown — only whether
   //    it is there, because "not set" means the endpoint is off.
-  const cleanupSecret = settings.cleanupSecret();
+  const cleanupSecrets = settings.cleanupSecrets();
   checks.push({
     label: 'CLEANUP_SECRET',
-    ok: cleanupSecret !== undefined,
+    ok: cleanupSecrets.length > 0,
     detail:
-      cleanupSecret === undefined
-        ? 'not set (POST /api/cleanup is off — npm run cleanup still works)'
+      cleanupSecrets.length === 0
+        ? 'not set (the sweep is off — npm run cleanup still works)'
         : `set · retention ${settings.retentionDays()} days`,
   });
 

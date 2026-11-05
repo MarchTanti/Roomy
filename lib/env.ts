@@ -82,14 +82,23 @@ export const settings = {
   /** Hard timeout for one image-generation job, per the spec. */
   generationTimeoutMs: () => readEnvNumber('GENERATION_TIMEOUT_MS', 90_000),
   /**
-   * The secret that authorises the retention sweep over HTTP.
+   * The secrets that authorise the retention sweep over HTTP.
    *
-   * Unset means the endpoint is off: with no secret there is nothing to
-   * compare the token against, and an open "delete everything older than N
-   * days" endpoint is not a thing to leave on the internet. The npm script does
-   * not need it — it runs on the machine that holds the credentials.
+   * `CLEANUP_SECRET` is ours. `CRON_SECRET` is the name Vercel looks for: when
+   * it is set, Vercel sends its value back as `Authorization: Bearer …` on
+   * every cron request. Reading both means a deployment needs **one**
+   * variable, not two that have to be kept in step — and either one alone is
+   * enough to switch the sweep on.
+   *
+   * Empty means the sweep is off: with no secret there is nothing to compare
+   * the token against, and an open "delete everything older than N days"
+   * endpoint is not a thing to leave on the internet. The npm script does not
+   * need it — it runs on the machine that holds the credentials.
    */
-  cleanupSecret: () => readEnv('CLEANUP_SECRET'),
+  cleanupSecrets: () =>
+    [readEnv('CLEANUP_SECRET'), readEnv('CRON_SECRET')].filter(
+      (value): value is string => value !== undefined,
+    ),
   /** How long a session and its photos are kept before the sweep removes them. */
   retentionDays: () => readEnvNumber('RETENTION_DAYS', 7),
 };
