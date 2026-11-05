@@ -12,6 +12,7 @@
     "images": "tsx scripts/draw-images.ts",
     "style-examples": "tsx scripts/style-examples.ts",
     "cleanup": "tsx scripts/cleanup.ts",
+    "check:deploy": "tsx scripts/check-deploy.ts",
     "results": "tsx scripts/results.ts",
     "test": "vitest run",
     "test:watch": "vitest",

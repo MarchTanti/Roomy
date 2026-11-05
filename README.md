@@ -254,6 +254,7 @@ npm run fetch:catalog  # rebuild the catalog from IKEA + HomePro (see below)
 npm run images     # redraw the furniture illustrations only
 npm run style-examples  # draw the example room of each style (once)
 npm run cleanup    # delete sessions and photos older than RETENTION_DAYS
+npm run check:deploy -- https://your-app.vercel.app  # ask a deployed site whether it is wired right
 npm run results    # step 8: sweep the catalogue + run the chat scenarios → results.json
 npm run typecheck  # tsc --noEmit
 npm test           # vitest run
@@ -507,6 +508,7 @@ three times (IKEA sells most pieces in six colours).
 │   ├── make-logo.mjs          # The logo assets, from assets/logo-source.png
 │   ├── logo-colour.mjs        # Repaints the mark on a flat house-blue ground
 │   ├── cleanup.ts             # The retention sweep from the command line
+│   ├── check-deploy.ts        # Asks a deployed site whether it is wired right
 │   └── results.ts             # Step 8: the catalogue sweep + the chat scenarios
 ├── supabase/
 │   └── migrations/
@@ -705,6 +707,22 @@ generation that runs out of time fails with "ใช้เวลานานเ�
 rather than being cut off by the platform.
 
 ### 7. What to check after the deploy
+
+The quick way is one command:
+
+```
+npm run check:deploy -- https://your-app.vercel.app
+```
+
+It asks the deployed site the questions that catch a broken deployment — the
+adapter it is really running on, whether the catalogue arrived, whether the
+pictures and the style cards shipped with the code, whether the retention
+sweep is still locked, and whether the rule that a placement needs a request
+is the one that is deployed. It only reads; the one POST it sends is refused
+before any work happens, so it costs nothing. Exit code 0 means everything
+passed.
+
+By hand, the same ground:
 
 - `https://<your-app>.vercel.app/health` — the adapter, the number of
   products, which credentials arrived.
