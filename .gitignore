@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# local data written by the local DB / storage adapters
+.data/
+
+# The catalogue's own pictures live in public/product-images/ and are
+# **committed**: every catalogue row points at a file there, so a deployment
+# without them shows broken pictures on every card. The pictures of the
+# example rooms (public/style-examples/) are committed for the same reason.
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files — never commit real values
+.env
+.env*.local
+!.env.example
+
+# typescript
+*.tsbuildinfo

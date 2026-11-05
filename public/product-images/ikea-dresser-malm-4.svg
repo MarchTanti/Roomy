@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="ตู้แต่งตัวมาลม์ 4 ชั้น">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf9"/>
+      <stop offset="1" stop-color="#f4ecdf"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <ellipse cx="320" cy="254" rx="250" ry="170" fill="url(#glow)"/>
+  <line x1="0" y1="372" x2="640" y2="372" stroke="#e2d6c1" stroke-width="3"/>
+  <ellipse cx="320" cy="376" rx="212" ry="16" fill="#3a332a" fill-opacity="0.07"/>
+
+  <rect x="176" y="146" width="288" height="214" rx="12" fill="#efebe3" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="194" y="162" width="252" height="54" rx="8" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="194" y="226" width="252" height="54" rx="8" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="194" y="290" width="252" height="54" rx="8" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="310" y="184" width="20" height="8" rx="4" fill="#3a332a" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.4"/><rect x="310" y="248" width="20" height="8" rx="4" fill="#3a332a" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.4"/><rect x="310" y="312" width="20" height="8" rx="4" fill="#3a332a" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.4"/><rect x="188" y="360" width="16" height="12" rx="4" fill="#bab7b1" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="436" y="360" width="16" height="12" rx="4" fill="#bab7b1" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" />
+
+  <g font-family="'Noto Sans Thai', -apple-system, 'Segoe UI', sans-serif" fill="#3a332a" fill-opacity="0.5">
+    <text x="30" y="456" font-size="18">ตู้แต่งตัวมาลม์ 4 ชั้น</text>
+    <text x="30" y="474" font-size="13" fill-opacity="0.38">MALM 4-drawer chest · 100 × 48 × 89 ซม.</text>
+  </g>
+</svg>

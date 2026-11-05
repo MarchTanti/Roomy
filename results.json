@@ -1,0 +1,1902 @@
+{
+  "generated_at": "2026-10-31T18:25:20.954Z",
+  "app": {
+    "adapter": "supabase",
+    "llm": "gemini",
+    "llm_model": "gemini-3.8-flash",
+    "image_model": "gemini-3.1-flash-image"
+  },
+  "catalogue_fit": {
+    "space_cm": {
+      "width": 240,
+      "depth": 120,
+      "height": 260
+    },
+    "rows": [
+      {
+        "product_id": "ikea-lamp-zebrasaev-10522481",
+        "name_th": "ZEBRASÄV เซียบราฟเซิฟ โคมแขวนเพดาน - ขาว/พลาสติก 46 ซม.",
+        "category": "lamp",
+        "price_thb": 199,
+        "size_cm": {
+          "width": 46,
+          "depth": 46,
+          "height": 24
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 74,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 194 ซม. และด้านลึก 74 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 194 ซม. และด้านลึก 74 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-cabinet-vuku-10339331",
+        "name_th": "VUKU วูคู ตู้เสื้อผ้า - ขาว 74x51x149 ซม.",
+        "category": "cabinet",
+        "price_thb": 790,
+        "size_cm": {
+          "width": 74,
+          "depth": 51,
+          "height": 149
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 69,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 166 ซม. และด้านลึก 69 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 166 ซม. และด้านลึก 69 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-lamp-ytlaege-70540019",
+        "name_th": "YTLÄGE อิทแลเกอ โคมแขวนเพดาน - ขาว 43 ซม.",
+        "category": "lamp",
+        "price_thb": 990,
+        "size_cm": {
+          "width": 43,
+          "depth": 43,
+          "height": 23
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 77,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 197 ซม. และด้านลึก 77 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 197 ซม. และด้านลึก 77 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-armchair-888213900123",
+        "name_th": "เก้าอี้พักผ่อนโยกได้ ELIFE สีส้มลายตาราง",
+        "category": "armchair",
+        "price_thb": 1039,
+        "size_cm": {
+          "width": 91,
+          "depth": 117,
+          "height": 70
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 29,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 117 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 117 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 123 ซม. และด้านลึก 29 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-dresser-nordli-20401902",
+        "name_th": "NORDLI นูร์ดลี กล่องลิ้นชัก - ขาว 40x45 ซม.",
+        "category": "dresser",
+        "price_thb": 1190,
+        "size_cm": {
+          "width": 40,
+          "depth": 47,
+          "height": 45
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 80,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 47 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 47 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 193 ซม. และด้านลึก 80 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-lamp-virrmo-70430780",
+        "name_th": "VIRRMO วีร์มู โคมไฟเพดาน LED - ชุบนิกเกิล 36 ซม. 800 ลูเมน",
+        "category": "lamp",
+        "price_thb": 1290,
+        "size_cm": {
+          "width": 36,
+          "depth": 36,
+          "height": 7.6
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 84,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 204 ซม. และด้านลึก 84 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 204 ซม. และด้านลึก 84 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-lamp-vindkast-40539084",
+        "name_th": "VINDKAST วินด์แคสต์ โคมไฟตั้งพื้น - ขาว",
+        "category": "lamp",
+        "price_thb": 1290,
+        "size_cm": {
+          "width": 38,
+          "depth": 38,
+          "height": 144
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 82,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 202 ซม. และด้านลึก 82 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 202 ซม. และด้านลึก 82 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-table-vittsjoe-80619540",
+        "name_th": "VITTSJÖ วิทท์เชอ โต๊ะแล็ปท็อป - ขาว/แก้ว/กระจก 100x36 ซม.",
+        "category": "table",
+        "price_thb": 1290,
+        "size_cm": {
+          "width": 100,
+          "depth": 36,
+          "height": 74
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 84,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 140 ซม. และด้านลึก 84 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 140 ซม. และด้านลึก 84 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-shelf-vihals-30483290",
+        "name_th": "VIHALS วีฮาลส์ ชั้นวางของ 4 ชั้น - ขาว 95x37x90 ซม.",
+        "category": "shelf",
+        "price_thb": 1490,
+        "size_cm": {
+          "width": 95,
+          "depth": 37,
+          "height": 90
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 83,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 145 ซม. และด้านลึก 83 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 145 ซม. และด้านลึก 83 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-tv_stand-1283781",
+        "name_th": "ตู้วางทีวี FURDINI FINE 120 ซม. ลายไม้/ครีมขาวผ้า",
+        "category": "tv_stand",
+        "price_thb": 1590,
+        "size_cm": {
+          "width": 120,
+          "depth": 40,
+          "height": 54
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 80,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 80 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 80 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-chair-1288968",
+        "name_th": "เก้าอี้ทานข้าว FURDINI LAGUNA-X สีน้ำตาลอ่อน",
+        "category": "chair",
+        "price_thb": 1950,
+        "size_cm": {
+          "width": 55,
+          "depth": 56.5,
+          "height": 80.5
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 65,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 56.5 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 56.5 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 183.5 ซม. และด้านลึก 65 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-table-1231761",
+        "name_th": "โต๊ะทานข้าว FURDINI CHAD สีขาว",
+        "category": "table",
+        "price_thb": 1990,
+        "size_cm": {
+          "width": 80,
+          "depth": 80,
+          "height": 74
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 40,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 160 ซม. และด้านลึก 40 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 160 ซม. และด้านลึก 40 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-rug-vaexelfel-30638715",
+        "name_th": "VÄXELFEL เว็กเซลเฟียล พรมขนสั้น - เหลือง-น้ำตาล 133x195 ซม.",
+        "category": "rug",
+        "price_thb": 1990,
+        "size_cm": {
+          "width": 133,
+          "depth": 195,
+          "height": 0.9
+        },
+        "verdict": "does_not_fit",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": -13,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 195 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 195 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "ด้านลึกเกินพื้นที่ 13 ซม. (ต้องการ 133 ซม. มีแค่ 120 ซม.)"
+        ]
+      },
+      {
+        "product_id": "homepro-sofa-1152034",
+        "name_th": "โซฟา BOFA SOUTH สีครีม",
+        "category": "sofa",
+        "price_thb": 2290,
+        "size_cm": {
+          "width": 125,
+          "depth": 77,
+          "height": 74
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 43,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 115 ซม. และด้านลึก 43 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 115 ซม. และด้านลึก 43 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-shelf-1098098",
+        "name_th": "ชั้นวางของโล่ง FURDINI FRAME LR88T4 สีโครม",
+        "category": "shelf",
+        "price_thb": 2490,
+        "size_cm": {
+          "width": 120,
+          "depth": 45,
+          "height": 160
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 75,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 75 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 75 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-table-vikhammer-80388974",
+        "name_th": "VIKHAMMER วีคฮัมเมอร์ โต๊ะข้างเตียง - ขาว 40x39 ซม.",
+        "category": "table",
+        "price_thb": 2490,
+        "size_cm": {
+          "width": 40,
+          "depth": 39,
+          "height": 65
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 81,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 200 ซม. และด้านลึก 81 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 200 ซม. และด้านลึก 81 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-chair-1248145",
+        "name_th": "เก้าอี้ทานข้าว BENETTA OLIVIER สีเบจ",
+        "category": "chair",
+        "price_thb": 2950,
+        "size_cm": {
+          "width": 58.5,
+          "depth": 63,
+          "height": 83
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 61.5,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 63 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 63 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 177 ซม. และด้านลึก 61.5 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-armchair-1298202",
+        "name_th": "เก้าอี้พักผ่อนโยกได้ FURDINI FUNKEL สีเบจ",
+        "category": "armchair",
+        "price_thb": 2990,
+        "size_cm": {
+          "width": 69,
+          "depth": 85,
+          "height": 97
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 51,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 85 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 85 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 155 ซม. และด้านลึก 51 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-desk-vittsjoe-50607440",
+        "name_th": "VITTSJÖ วิทท์เชอ โต๊ะทำงาน - น้ำตาลดำ/แก้ว/กระจก 110x60 ซม.",
+        "category": "desk",
+        "price_thb": 2990,
+        "size_cm": {
+          "width": 110,
+          "depth": 60,
+          "height": 75
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 60,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 130 ซม. และด้านลึก 60 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 130 ซม. และด้านลึก 60 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-shelf-vittsjoe-80213314",
+        "name_th": "VITTSJÖ วิทท์เชอ ชั้นวางของ - น้ำตาลดำ/แก้ว/กระจก 100x175 ซม.",
+        "category": "shelf",
+        "price_thb": 2990,
+        "size_cm": {
+          "width": 100,
+          "depth": 36,
+          "height": 175
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 84,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 140 ซม. และด้านลึก 84 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 140 ซม. และด้านลึก 84 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-chair-yxstaby-20619996",
+        "name_th": "YXSTABY อิกซ์ตาบี เก้าอี้พักผ่อนสำหรับเล่นเกม - วิสเล่ เบจ",
+        "category": "chair",
+        "price_thb": 3290,
+        "size_cm": {
+          "width": 72,
+          "depth": 83,
+          "height": 114
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 48,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 83 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 83 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 157 ซม. และด้านลึก 48 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-cabinet-1316399",
+        "name_th": "ตู้เสื้อผ้า 2 บานเปิด FURDINI GOOD 120 ซม. สี NT OAK",
+        "category": "cabinet",
+        "price_thb": 3590,
+        "size_cm": {
+          "width": 120,
+          "depth": 55,
+          "height": 179
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 65,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 65 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 65 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-desk-utvisning-20586401",
+        "name_th": "UTVISNING อูทวิสนิง โต๊ะเกมพร้อมชั้นวาง - ดำ 120x60 ซม.",
+        "category": "desk",
+        "price_thb": 3590,
+        "size_cm": {
+          "width": 120,
+          "depth": 60,
+          "height": 92
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 60,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 60 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 60 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-sofa-1279577",
+        "name_th": "โซฟาเบด FURDINI IVA สีน้ำตาล",
+        "category": "sofa",
+        "price_thb": 3990,
+        "size_cm": {
+          "width": 88,
+          "depth": 83,
+          "height": 80.5
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 37,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 152 ซม. และด้านลึก 37 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 152 ซม. และด้านลึก 37 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-bed-1266700",
+        "name_th": "เตียงเหล็ก 3.5 ฟุต THAIBULL SST032-105N สีขาว",
+        "category": "bed",
+        "price_thb": 3990,
+        "size_cm": {
+          "width": 111,
+          "depth": 206,
+          "height": 86
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 9,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 206 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 206 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 34 ซม. และด้านลึก 9 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-table-yxstaby-50620007",
+        "name_th": "YXSTABY อิกซ์ตาบี โต๊ะข้างมีล้อสำหรับเกม - วีเนียร์โอ๊ค/เทา",
+        "category": "table",
+        "price_thb": 3990,
+        "size_cm": {
+          "width": 50,
+          "depth": 50,
+          "height": 55
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 70,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 190 ซม. และด้านลึก 70 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 190 ซม. และด้านลึก 70 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-desk-888184000247",
+        "name_th": "โต๊ะคอมพิวเตอร์ STABLE รุ่น WS-SD-120B 120 ซม. สีโซลิด-เทา การ์ไฟท์",
+        "category": "desk",
+        "price_thb": 4900,
+        "size_cm": {
+          "width": 120,
+          "depth": 60,
+          "height": 75
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 60,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 60 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120 ซม. และด้านลึก 60 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-rug-vollerslev-90492569",
+        "name_th": "VOLLERSLEV วอลเลอเสลียฟ พรมขนยาว - ขาว 133x195 ซม.",
+        "category": "rug",
+        "price_thb": 5990,
+        "size_cm": {
+          "width": 133,
+          "depth": 195,
+          "height": 2.9
+        },
+        "verdict": "does_not_fit",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": -13,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 195 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 195 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "ด้านลึกเกินพื้นที่ 13 ซม. (ต้องการ 133 ซม. มีแค่ 120 ซม.)"
+        ]
+      },
+      {
+        "product_id": "ikea-shelf-tonstad-00488878",
+        "name_th": "TONSTAD ทุนสตัด ชั้นวางของ - ออฟไวท์ 120x37x116 ซม.",
+        "category": "shelf",
+        "price_thb": 5990,
+        "size_cm": {
+          "width": 119.6,
+          "depth": 37.1,
+          "height": 115.5
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 82.9,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120.4 ซม. และด้านลึก 82.9 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 120.4 ซม. และด้านลึก 82.9 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-tv_stand-vihals-29576247",
+        "name_th": "VIHALS วีฮาลส์ ชุดตู้ทีวี/ตู้เก็บของ - ขาว 285x37x140 ซม.",
+        "category": "tv_stand",
+        "price_thb": 7280,
+        "size_cm": {
+          "width": 285,
+          "depth": 37,
+          "height": 140
+        },
+        "verdict": "does_not_fit",
+        "rotation_deg": 0,
+        "limiting": "width",
+        "clearance_cm": -45,
+        "reason": "ด้านกว้างเกินพื้นที่ 45 ซม. (ต้องการ 285 ซม. มีแค่ 240 ซม.)",
+        "reasons": [
+          "ด้านกว้างเกินพื้นที่ 45 ซม. (ต้องการ 285 ซม. มีแค่ 240 ซม.)"
+        ]
+      },
+      {
+        "product_id": "ikea-bed-vevelstad-79441821",
+        "name_th": "VEVELSTAD เวียเวลสตัด โครงเตียง+3 หัวเตียง - ขาว/โทลค์นิง หวาย 90x200 ซม.",
+        "category": "bed",
+        "price_thb": 7990,
+        "size_cm": {
+          "width": 96,
+          "depth": 207,
+          "height": 27
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 24,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 207 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 207 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 33 ซม. และด้านลึก 24 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-table-voxloev-60449266",
+        "name_th": "VOXLÖV วอกซ์เลิฟ โต๊ะอาหาร - ไม้ไผ่สีอ่อน 180x90 ซม.",
+        "category": "table",
+        "price_thb": 8550,
+        "size_cm": {
+          "width": 90,
+          "depth": 180,
+          "height": 75
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 30,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 180 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 180 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 60 ซม. และด้านลึก 30 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-armchair-viskafors-49443303",
+        "name_th": "VISKAFORS วิสกาฟอร์ช อาร์มแชร์ 1,5 ที่นั่ง - เลย์เด ไลท์เบจ/น้ำตาล",
+        "category": "armchair",
+        "price_thb": 8590,
+        "size_cm": {
+          "width": 134,
+          "depth": 90,
+          "height": 74
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 30,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 106 ซม. และด้านลึก 30 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 106 ซม. และด้านลึก 30 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-dresser-sundvik-70591301",
+        "name_th": "SUNDVIK ซุนด์วีค โต๊ะเปลี่ยนผ้าอ้อม/ตู้ลิ้นชัก - ขาว",
+        "category": "dresser",
+        "price_thb": 8990,
+        "size_cm": {
+          "width": 78,
+          "depth": 79,
+          "height": 108
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 42,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 79 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 79 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 161 ซม. และด้านลึก 42 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-armchair-vimle-79477184",
+        "name_th": "VIMLE วิมเล อาร์มแชร์ - พร้อมที่วางแขนกว้าง/กุนนาเรียด มีเดียมเกรย์",
+        "category": "armchair",
+        "price_thb": 10000,
+        "size_cm": {
+          "width": 115,
+          "depth": 98,
+          "height": 83
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 22,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 125 ซม. และด้านลึก 22 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 125 ซม. และด้านลึก 22 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-bed-vitval-89303937",
+        "name_th": "VITVAL วิตวาล โครงเตียงสูง+ท็อปโต๊ะทำงาน - ขาว/เทาอ่อน 90x200 ซม.",
+        "category": "bed",
+        "price_thb": 11390,
+        "size_cm": {
+          "width": 97,
+          "depth": 207,
+          "height": 195
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "depth",
+        "clearance_cm": 23,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 207 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 207 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 33 ซม. และด้านลึก 23 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-bed-utaker-19423863",
+        "name_th": "UTÅKER อูทัวเคร์ เตียงแบบซ้อนได้+ที่นอน2ชิ้น - ไม้สน/วานนารีด แน่นพิเศษ 80x200 ซม.",
+        "category": "bed",
+        "price_thb": 12970,
+        "size_cm": {
+          "width": 83,
+          "depth": 205,
+          "height": 23
+        },
+        "verdict": "fits",
+        "rotation_deg": 90,
+        "limiting": "width",
+        "clearance_cm": 35,
+        "reason": "ต้องหมุนตัว 90 องศา เอาด้านยาว 205 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+        "reasons": [
+          "ต้องหมุนตัว 90 องศา เอาด้านยาว 205 ซม. วางเป็นด้านกว้าง ถึงจะพอดี",
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 35 ซม. และด้านลึก 37 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-cabinet-visthus-30347617",
+        "name_th": "VISTHUS วิสธุส ตู้เสื้อผ้า - เทา/ขาว 122x59x216 ซม.",
+        "category": "cabinet",
+        "price_thb": 12990,
+        "size_cm": {
+          "width": 122,
+          "depth": 59,
+          "height": 216
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "height",
+        "clearance_cm": 44,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 118 ซม. และด้านลึก 61 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 118 ซม. และด้านลึก 61 ซม."
+        ]
+      },
+      {
+        "product_id": "homepro-table-1277434",
+        "name_th": "โต๊ะทานข้าว BENETTA WINSTON 200 ซม. สีขาว/ดำ",
+        "category": "table",
+        "price_thb": 15990,
+        "size_cm": {
+          "width": 200,
+          "depth": 100,
+          "height": 76.6
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 20,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 40 ซม. และด้านลึก 20 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 40 ซม. และด้านลึก 20 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-sofa-viskafors-79443373",
+        "name_th": "VISKAFORS วิสกาฟอร์ช โซฟา3ที่นั่ง - เลย์เด ไลท์เบจ/น้ำตาล",
+        "category": "sofa",
+        "price_thb": 18950,
+        "size_cm": {
+          "width": 224,
+          "depth": 90,
+          "height": 74
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "width",
+        "clearance_cm": 16,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 16 ซม. และด้านลึก 30 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 16 ซม. และด้านลึก 30 ซม."
+        ]
+      },
+      {
+        "product_id": "ikea-sofa-vretstorp-59491237",
+        "name_th": "VRETSTORP เวรียทส์ทอร์ป โซฟาเบด 3 ที่นั่ง - คิลันดา ไลท์เบจ",
+        "category": "sofa",
+        "price_thb": 20990,
+        "size_cm": {
+          "width": 244,
+          "depth": 96,
+          "height": 91
+        },
+        "verdict": "does_not_fit",
+        "rotation_deg": 0,
+        "limiting": "width",
+        "clearance_cm": -4,
+        "reason": "ด้านกว้างเกินพื้นที่ 4 ซม. (ต้องการ 244 ซม. มีแค่ 240 ซม.)",
+        "reasons": [
+          "ด้านกว้างเกินพื้นที่ 4 ซม. (ต้องการ 244 ซม. มีแค่ 240 ซม.)"
+        ]
+      },
+      {
+        "product_id": "ikea-sofa-vimle-80466702",
+        "name_th": "VIMLE วิมเล โครงโซฟาเบด2ที่นั่ง - กรานน์/บุมสตอด ดำ",
+        "category": "sofa",
+        "price_thb": 24000,
+        "size_cm": {
+          "width": 160,
+          "depth": 98,
+          "height": 83
+        },
+        "verdict": "fits",
+        "rotation_deg": 0,
+        "limiting": "depth",
+        "clearance_cm": 22,
+        "reason": "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 80 ซม. และด้านลึก 22 ซม.",
+        "reasons": [
+          "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 80 ซม. และด้านลึก 22 ซม."
+        ]
+      }
+    ],
+    "summary": {
+      "total": 42,
+      "fits": 38,
+      "tight": 0,
+      "does_not_fit": 4
+    },
+    "space_source": "ห้องตัวอย่างเริ่มต้นของสคริปต์ (240×120×260 ซม.)"
+  },
+  "chat_scenarios": [
+    {
+      "name": "search_by_style_and_budget",
+      "title": "ค้นหาตามสไตล์และงบประมาณ",
+      "intent": "ให้บอทแปลงความต้องการของผู้ใช้เป็นเงื่อนไขของเครื่องมือค้นหา และเก็บไว้ในสถานะเซสชัน",
+      "prompt": "ชอบสไตล์สแกนดินาเวีย งบประมาณ 20,000 บาท อยากได้เฟอร์นิเจอร์สำหรับห้องนั่งเล่น",
+      "follow_up": null,
+      "turn": 1,
+      "turns": 1,
+      "ok": true,
+      "reply": "ขอแนะนำเฟอร์นิเจอร์ห้องนั่งเล่นสไตล์สแกนดินาเวียที่อยู่ในงบประมาณ ดังนี้ครับ:\n\n1. **โซฟา BOFA SOUTH สีครีม** (HomePro)\n   - **ราคา:** 2,290 บาท\n   - **ขนาดจริง:** กว้าง 125 ซม. × ลึก 77 ซม. × สูง 74 ซม.\n   - **สถานะ:** มีสินค้าในสต็อก\n   - โทนสีครีมอบอุ่น สบายตา ขนาดกะทัดรัด เหมาะสำหรับเป็นโซฟาหลักในห้องนั่งเล่น\n\n2. **โซฟาเบด FURDINI IVA สีน้ำตาล** (HomePro)\n   - **ราคา:** 3,990 บาท\n   - **ขนาดจริง:** กว้าง 88 ซม. × ลึก 83 ซม. × สูง 80.5 ซม.\n   - **สถานะ:** มีสินค้าในสต็อก\n   - ปรับเป็นที่นอนได้ เหมาะสำหรับห้องที่ต้องการฟังก์ชันอเนกประสงค์หรือพื้นที่จำกัด\n\n3. **โต๊ะ VITTSJÖ วิทท์เชอ สีขาว/กระจก** (IKEA)\n   - **ราคา:** 1,290 บาท\n   - **ขนาดจริง:** กว้าง 100 ซม. × ลึก 36 ซม. × สูง 74 ซม.\n   - **สถานะ:** มีสินค้าในสต็อก\n   - ดีไซน์โปร่งสไตล์สแกนดินาเวีย ใช้วางของ ตกแต่ง หรือเป็นโต๊ะข้างโซฟาได้ดี\n\nคุณมีขนาดพื้นที่ห้องนั่งเล่นที่เตรียมไว้ไหมครับ หรือต้องการให้ช่วยหาชิ้นอื่นเพิ่มเติม เช่น โต๊ะกลาง ชั้นวางทีวี หรือต้องการให้ออกแบบจัดวางทั้งห้องบอกได้เลยครับ!",
+      "previous_reply": null,
+      "tool_calls": [
+        {
+          "name": "searchFurniture",
+          "args": {
+            "limit": 6,
+            "style": "scandinavian",
+            "max_price_thb": 20000
+          }
+        },
+        {
+          "name": "searchFurniture",
+          "args": {
+            "category": "sofa",
+            "style": "scandinavian",
+            "limit": 6,
+            "max_price_thb": 20000
+          }
+        }
+      ],
+      "iterations": 3,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": [
+        {
+          "id": "homepro-sofa-1152034",
+          "name_th": "โซฟา BOFA SOUTH สีครีม",
+          "name_en": "SOFA BOFA SOUTH CREAM",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "cream",
+          "material": "wood",
+          "price_thb": 2290,
+          "width_cm": 125,
+          "depth_cm": 77,
+          "height_cm": 74,
+          "image_url": "/product-images/homepro-sofa-1152034.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1152034"
+        },
+        {
+          "id": "homepro-sofa-1279577",
+          "name_th": "โซฟาเบด FURDINI IVA สีน้ำตาล",
+          "name_en": "SOFA BED FURDINI IVA BROWN",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "brown",
+          "material": "fabric",
+          "price_thb": 3990,
+          "width_cm": 88,
+          "depth_cm": 83,
+          "height_cm": 80.5,
+          "image_url": "/product-images/homepro-sofa-1279577.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1279577"
+        }
+      ],
+      "comparison": null,
+      "design": null,
+      "preferences": {
+        "style": "scandinavian",
+        "budget_thb": 20000,
+        "category": "sofa"
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 25289,
+      "first_token_ms": 21552,
+      "usage": {
+        "in": 15255,
+        "out": 479,
+        "think": 1156
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "965 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "ตรวจไป 3 จำนวน ไม่มีตัวไหนนอกฐานข้อมูล"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "คำตอบไม่ได้บอกตัวเลขช่องว่าง"
+        },
+        {
+          "name": "เรียกเครื่องมือ searchFurniture",
+          "ok": true,
+          "detail": "เรียกไป 2 ครั้ง"
+        },
+        {
+          "name": "ได้สินค้ามาให้เลือก",
+          "ok": true,
+          "detail": "2 รายการ (ต้องการอย่างน้อย 1)"
+        },
+        {
+          "name": "ฐานข้อมูลจำงบไว้เป็น 20,000 บาท",
+          "ok": true,
+          "detail": "ได้ 20,000"
+        },
+        {
+          "name": "สไตล์ที่จำไว้เป็นสไตล์ที่แคตตาล็อกมีจริง",
+          "ok": true,
+          "detail": "\"scandinavian\""
+        }
+      ]
+    },
+    {
+      "name": "fit_check_with_measurement",
+      "title": "เช็คขนาดด้วยพื้นที่ที่ผู้ใช้บอก",
+      "intent": "ให้บอทส่งขนาดที่ผู้ใช้พิมพ์มาเข้าเครื่องมือ แล้วเล่าผลตามกฎ ไม่ใช่ตามความเดาของโมเดล",
+      "prompt": "ห้องนั่งเล่นกว้าง 240 ซม. ลึก 120 ซม. ความสูงพืดาน 260 ซม. ช่วยเช็คว่าโซฟาที่แนะนำมาวางลงไปได้ไหม",
+      "follow_up": null,
+      "turn": 2,
+      "turns": 1,
+      "ok": true,
+      "reply": "ตรวจสอบพื้นที่ขนาด **กว้าง 240 ซม. × ลึก 120 ซม. × สูง 260 ซม.** ให้แล้วครับ ทั้ง 2 รุ่นสามารถวางได้พอดี มีรายละเอียดดังนี้ครับ:\n\n1. **โซฟา BOFA SOUTH สีครีม** (ราคา 2,290 บาท)\n   - **ขนาดจริง:** กว้าง 125 ซม. × ลึก 77 ซม. × สูง 74 ซม.\n   - **ผลการตรวจ:** **วางได้** \n   - **ระยะพื้นที่:** เหลือช่องว่างด้านกว้าง 115 ซม. ด้านลึก 43 ซม. และด้านความสูงเหลือ 186 ซม.\n\n2. **โซฟาเบด FURDINI IVA สีน้ำตาล** (ราคา 3,990 บาท)\n   - **ขนาดจริง:** กว้าง 88 ซม. × ลึก 83 ซม. × สูง 80.5 ซม.\n   - **ผลการตรวจ:** **วางได้**\n   - **ระยะพื้นที่:** เหลือช่องว่างด้านกว้าง 152 ซม. ด้านลึก 37 ซม. และด้านความสูงเหลือ 179.5 ซม.\n\nทั้ง 2 รุ่นมีระยะเหลือด้านลึกและด้านกว้างเพียงพอสำหรับเดินผ่านได้สะดวกครับ สนใจตัวไหนเป็นพิเศษ หรือต้องการให้เปรียบเทียบจุดเด่นเพิ่มเติมไหมครับ?",
+      "previous_reply": null,
+      "tool_calls": [
+        {
+          "name": "checkFit",
+          "args": {
+            "area_height_cm": 260,
+            "area_depth_cm": 120,
+            "product_id": "homepro-sofa-1152034",
+            "area_width_cm": 240
+          }
+        },
+        {
+          "name": "checkFit",
+          "args": {
+            "area_depth_cm": 120,
+            "area_height_cm": 260,
+            "product_id": "homepro-sofa-1279577",
+            "area_width_cm": 240
+          }
+        }
+      ],
+      "iterations": 2,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": null,
+      "comparison": null,
+      "design": null,
+      "preferences": {
+        "style": "scandinavian",
+        "budget_thb": 20000,
+        "category": "sofa"
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 11035,
+      "first_token_ms": 8261,
+      "usage": {
+        "in": 13992,
+        "out": 440,
+        "think": 581
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "752 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "ตรวจไป 2 จำนวน ไม่มีตัวไหนนอกฐานข้อมูล"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "ตรวจไป 4 ตัวเลข เป็นของที่เครื่องมือบอกทั้งหมด"
+        },
+        {
+          "name": "เรียกเครื่องมือ checkFit",
+          "ok": true,
+          "detail": "เรียกไป 2 ครั้ง"
+        },
+        {
+          "name": "ได้ผลตรวจขนาดจากเครื่องมือ",
+          "ok": true,
+          "detail": "2 รายการ (ต้องการอย่างน้อย 1)"
+        },
+        {
+          "name": "คำตอบไม่ขัดกับผลตรวจของกฎ",
+          "ok": true,
+          "detail": "ผลตรวจ: fits, fits"
+        }
+      ]
+    },
+    {
+      "name": "compare_two_products",
+      "title": "เทียบสินค้าสองตัว",
+      "intent": "ให้บอทเทียบจากแถวในฐานข้อมูลเท่านั้น และชี้ว่าตัวไหนถูกสุด",
+      "prompt": "เทียบสินค้าที่แนะนำมาสองตัวให้หน่อยว่าตัวไหนคุ้มกว่า",
+      "follow_up": null,
+      "turn": 3,
+      "turns": 1,
+      "ok": true,
+      "reply": "เปรียบเทียบทั้ง 2 ตัวเคียงกันสำหรับพื้นที่ 240 × 120 ซม. ดังนี้ครับ:\n\n| รายการ | **โซฟา BOFA SOUTH สีครีม** | **โซฟาเบด FURDINI IVA สีน้ำตาล** |\n| :--- | :--- | :--- |\n| **ราคา** | **2,290 บาท** *(ถูกที่สุด)* | 3,990 บาท |\n| **ขนาด (ก × ล × ส)** | 125 × 77 × 74 ซม. | 88 × 83 × 80.5 ซม. |\n| **วัสดุ** | ไม้ (Wood) | ผ้า (Fabric) |\n| **ผลการจัดวาง** | วางได้ (เหลือด้านกว้าง 115 ซม., ลึก 43 ซม.) | วางได้ (เหลือด้านกว้าง 152 ซม., ลึก 37 ซม.) |\n| **ความเหมาะสม** | **ตัวที่วางได้ดีที่สุด** | วางได้ดี |\n\n---\n\n### สรุปความคุ้มค่า:\n- **ราคาถูกที่สุดและวางได้ดีที่สุด:** **โซฟา BOFA SOUTH สีครีม (2,290 บาท)** คุ้มค่าที่สุดทั้งด้านราคาที่ประหยัดกว่า และระยะความลึกที่กินพื้นที่น้อยกว่า (เหลือช่องว่างทางเดินด้านลึก 43 ซม.) เบาะกว้าง 125 ซม. นั่งสบาย 2 คนได้พอดี\n- **ความคุ้มค่าด้านฟังก์ชัน:** **FURDINI IVA สีน้ำตาล (3,990 บาท)** แม้ราคาสูงกว่า แต่ได้ฟังก์ชันโซฟาเบดที่ปรับนอนได้ และตัวโซฟาหน้าแคบกว่า (กว้าง 88 ซม.) ทำให้เหลือพื้นที่ด้านข้างห้องมากกว่า\n\nถ้าเน้นความคุ้มค่าด้านราคาและการจัดวาง **โซฟา BOFA SOUTH สีครีม** เป็นตัวเลือกที่ตอบโจทย์ที่สุดครับ ต้องการเลือกตัวนี้เลยไหมครับ?",
+      "previous_reply": null,
+      "tool_calls": [
+        {
+          "name": "compareOptions",
+          "args": {
+            "product_ids": [
+              "homepro-sofa-1152034",
+              "homepro-sofa-1279577"
+            ]
+          }
+        }
+      ],
+      "iterations": 2,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": null,
+      "comparison": {
+        "products": [
+          {
+            "id": "homepro-sofa-1152034",
+            "name_th": "โซฟา BOFA SOUTH สีครีม",
+            "name_en": "SOFA BOFA SOUTH CREAM",
+            "category": "sofa",
+            "color": "cream",
+            "material": "wood",
+            "price_thb": 2290,
+            "width_cm": 125,
+            "depth_cm": 77,
+            "height_cm": 74,
+            "image_url": "/product-images/homepro-sofa-1152034.jpg",
+            "in_stock": true,
+            "verdict": "fits",
+            "reasons": [
+              "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 115 ซม. และด้านลึก 43 ซม."
+            ]
+          },
+          {
+            "id": "homepro-sofa-1279577",
+            "name_th": "โซฟาเบด FURDINI IVA สีน้ำตาล",
+            "name_en": "SOFA BED FURDINI IVA BROWN",
+            "category": "sofa",
+            "color": "brown",
+            "material": "fabric",
+            "price_thb": 3990,
+            "width_cm": 88,
+            "depth_cm": 83,
+            "height_cm": 80.5,
+            "image_url": "/product-images/homepro-sofa-1279577.jpg",
+            "in_stock": true,
+            "verdict": "fits",
+            "reasons": [
+              "พื้นที่วางได้ เหลือช่องว่างด้านกว้าง 152 ซม. และด้านลึก 37 ซม."
+            ]
+          }
+        ],
+        "space": {
+          "width_cm": 240,
+          "depth_cm": 120,
+          "height_cm": 260
+        },
+        "cheapest_id": "homepro-sofa-1152034",
+        "best_fit_id": "homepro-sofa-1152034"
+      },
+      "design": null,
+      "preferences": {
+        "style": "scandinavian",
+        "budget_thb": 20000,
+        "category": "sofa"
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 11396,
+      "first_token_ms": 7064,
+      "usage": {
+        "in": 15807,
+        "out": 497,
+        "think": 190
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "1079 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "ตรวจไป 4 จำนวน ไม่มีตัวไหนนอกฐานข้อมูล"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "ตรวจไป 3 ตัวเลข เป็นของที่เครื่องมือบอกทั้งหมด"
+        },
+        {
+          "name": "เรียกเครื่องมือ compareOptions",
+          "ok": true,
+          "detail": "เรียกไป 1 ครั้ง"
+        },
+        {
+          "name": "ได้ตารางเทียบมา",
+          "ok": true,
+          "detail": "2 รายการ (ต้องการอย่างน้อย 2)"
+        },
+        {
+          "name": "ตัวที่ถูกสุดตรงกับราคาต่ำสุด",
+          "ok": true,
+          "detail": "โซฟา BOFA SOUTH สีครีม (2,290 บาท)"
+        }
+      ]
+    },
+    {
+      "name": "room_style_without_photo",
+      "title": "ถามสไตล์ห้องตอนยังไม่มีรูป",
+      "intent": "ให้บอทขอรูปห้องแทนที่จะแต่งสไตล์ของห้องที่ยังไม่เคยเห็น",
+      "prompt": "ช่วยดูสไตล์ห้องนั่งเล่นของฉันให้หน่อยว่าเป็นสไตล์อะไร",
+      "follow_up": null,
+      "turn": 4,
+      "turns": 1,
+      "ok": true,
+      "reply": "ตอนนี้ยังไม่มีรูปห้องในระบบครับ รบกวนคุณลูกค้าช่วยอัปโหลดหรือส่งรูปห้องนั่งเล่นเข้ามาได้เลยครับ เดี๋ยวผมช่วยวิเคราะห์สไตล์ โทนสี แสง และพื้นที่ว่างให้ทันทีครับ!",
+      "previous_reply": null,
+      "tool_calls": [
+        {
+          "name": "analyzeRoom",
+          "args": {}
+        }
+      ],
+      "iterations": 2,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": null,
+      "comparison": null,
+      "design": null,
+      "preferences": {
+        "style": "scandinavian",
+        "budget_thb": 20000,
+        "category": "sofa"
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 6231,
+      "first_token_ms": 5259,
+      "usage": {
+        "in": 17901,
+        "out": 58,
+        "think": 143
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "160 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "คำตอบไม่มีตัวเลขราคาให้ตรวจ"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "คำตอบไม่ได้บอกตัวเลขช่องว่าง"
+        },
+        {
+          "name": "คำตอบมีคำว่า \"อัปโหลด\" หรือ \"ส่งรูป\" หรือ \"รูปห้อง\" หรือ \"รูปภาพ\" หรือ \"ถ่ายรูป\" หรือ \"เพิ่มรูป\"",
+          "ok": true,
+          "detail": "เจอคำว่า \"อัปโหลด\""
+        }
+      ]
+    },
+    {
+      "name": "budget_follow_up",
+      "title": "งบประมาณเปลี่ยนไปในบทสนทนาเดิม",
+      "intent": "ให้บอทจำสไตล์ที่เคยบอกไว้ไว้ในฐานข้อมูล แล้วอัปเดตงบใหม่โดยไม่ลืมของเดิม",
+      "prompt": "งบเพิ่มเป็น 25,000 บาทได้ไหม",
+      "follow_up": null,
+      "turn": 5,
+      "turns": 1,
+      "ok": true,
+      "reply": "ปรับงบประมาณเป็น 25,000 บาทให้เรียบร้อยแล้วครับ! ในงบใหม่นี้มีตัวเลือกโซฟาสไตล์สแกนดินาเวียคุณภาพสูงเพิ่มเติม ดังนี้ครับ:\n\n1. **VRETSTORP เวรียทส์ทอร์ป โซฟาเบด 3 ที่นั่ง - คิลันดา ไลท์เบจ** (IKEA)\n   - **ราคา:** 20,990 บาท\n   - **ขนาดจริง:** กว้าง 244 ซม. × ลึก 96 ซม. × สูง 91 ซม.\n   - **สถานะ:** มีสินค้าในสต็อก\n   - โซฟาเบดขนาดใหญ่ นั่งสบาย โทนสีเบจสไตล์สแกนดินาเวีย *(หมายเหตุ: ความกว้าง 244 ซม. จะเกินพื้นที่ขนาด 240 ซม. เล็กน้อยครับ)*\n\n2. **VIMLE วิมเล โครงโซฟาเบด 2 ที่นั่ง - กรานน์/บุมสตอด ดำ** (IKEA)\n   - **ราคา:** 24,000 บาท\n   - **ขนาดจริง:** กว้าง 160 ซม. × ลึก 98 ซม. × สูง 83 ซม.\n   - **สถานะ:** มีสินค้าในสต็อก\n   - ขนาดกว้าง 160 ซม. วางลงในพื้นที่กว้าง 240 ซม. × ลึก 120 ซม. ได้สบาย ปรับเป็นที่นอนได้ ดีไซน์โมเดิร์นสแกนดิเนเวียน\n\n3. **โซฟา BOFA SOUTH สีครีม** (HomePro)\n   - **ราคา:** 2,290 บาท\n   - **ขนาดจริง:** กว้าง 125 ซม. × ลึก 77 ซม. × สูง 74 ซม.\n   - **สถานะ:** มีสินค้าในสต็อก\n   - ตัวเลือกสุดคุ้ม ประหยัดงบ และขนาดพอดีกับห้อง\n\nสนใจดูรายละเอียดตัวไหนเพิ่มเติม หรือต้องการให้เช็คระยะการจัดวางของรุ่นไหนแจ้งได้เลยครับ!",
+      "previous_reply": null,
+      "tool_calls": [
+        {
+          "name": "searchFurniture",
+          "args": {
+            "category": "sofa",
+            "style": "scandinavian",
+            "max_price_thb": 25000
+          }
+        }
+      ],
+      "iterations": 2,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": [
+        {
+          "id": "homepro-sofa-1152034",
+          "name_th": "โซฟา BOFA SOUTH สีครีม",
+          "name_en": "SOFA BOFA SOUTH CREAM",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "cream",
+          "material": "wood",
+          "price_thb": 2290,
+          "width_cm": 125,
+          "depth_cm": 77,
+          "height_cm": 74,
+          "image_url": "/product-images/homepro-sofa-1152034.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1152034"
+        },
+        {
+          "id": "homepro-sofa-1279577",
+          "name_th": "โซฟาเบด FURDINI IVA สีน้ำตาล",
+          "name_en": "SOFA BED FURDINI IVA BROWN",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "brown",
+          "material": "fabric",
+          "price_thb": 3990,
+          "width_cm": 88,
+          "depth_cm": 83,
+          "height_cm": 80.5,
+          "image_url": "/product-images/homepro-sofa-1279577.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1279577"
+        },
+        {
+          "id": "ikea-sofa-vretstorp-59491237",
+          "name_th": "VRETSTORP เวรียทส์ทอร์ป โซฟาเบด 3 ที่นั่ง - คิลันดา ไลท์เบจ",
+          "name_en": "VRETSTORP 3-seat sofa bed kilanda light beige",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "beige",
+          "material": "fabric",
+          "price_thb": 20990,
+          "width_cm": 244,
+          "depth_cm": 96,
+          "height_cm": 91,
+          "image_url": "/product-images/ikea-sofa-vretstorp-59491237.jpg",
+          "in_stock": true,
+          "source_url": "https://www.ikea.com/th/th/p/vretstorp-3-seat-sofa-bed-kilanda-light-beige-s59491237/"
+        },
+        {
+          "id": "ikea-sofa-vimle-80466702",
+          "name_th": "VIMLE วิมเล โครงโซฟาเบด2ที่นั่ง - กรานน์/บุมสตอด ดำ",
+          "name_en": "VIMLE frame 2-seat sofa bed section grann bomstad black",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "black",
+          "material": null,
+          "price_thb": 24000,
+          "width_cm": 160,
+          "depth_cm": 98,
+          "height_cm": 83,
+          "image_url": "/product-images/ikea-sofa-vimle-80466702.jpg",
+          "in_stock": true,
+          "source_url": "https://www.ikea.com/th/th/p/vimle-frame-2-seat-sofa-bed-section-grann-bomstad-black-80466702/"
+        }
+      ],
+      "comparison": null,
+      "design": null,
+      "preferences": {
+        "style": "scandinavian",
+        "budget_thb": 25000,
+        "category": "sofa"
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 9399,
+      "first_token_ms": 5359,
+      "usage": {
+        "in": 14478,
+        "out": 514,
+        "think": 157
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "1042 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "ตรวจไป 4 จำนวน ไม่มีตัวไหนนอกฐานข้อมูล"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "คำตอบไม่ได้บอกตัวเลขช่องว่าง"
+        },
+        {
+          "name": "ฐานข้อมูลจำงบไว้เป็น 25,000 บาท",
+          "ok": true,
+          "detail": "ได้ 25,000"
+        },
+        {
+          "name": "สไตล์ที่จำไว้เป็นสไตล์ที่แคตตาล็อกมีจริง",
+          "ok": true,
+          "detail": "\"scandinavian\""
+        }
+      ]
+    },
+    {
+      "name": "price_quote_from_db",
+      "title": "ราคามาจากฐานข้อมูลเท่านั้น",
+      "intent": "ให้บอทตอบราคาของสินค้าที่ระบุชื่อ โดยตัวเลขต้องตรงกับแถวในฐานข้อมูล (สินค้าที่ถามถูกเลือกจากแคตตาล็อกจริงตอนรัน เพราะแคตตาล็อกถูก seed ใหม่แล้ว)",
+      "prompt": "ราคา VIMLE วิมเล โครงโซฟาเบด2ที่นั่ง - กรานน์/บุมสตอด ดำ เท่าไหร่",
+      "follow_up": null,
+      "turn": 6,
+      "turns": 1,
+      "ok": true,
+      "reply": "**VIMLE วิมเล โครงโซฟาเบด 2 ที่นั่ง (กรานน์/บุมสตอด ดำ)**\n\n* **ราคา:** 24,000 บาท\n* **ขนาด:** กว้าง 160 ซม. × ลึก 98 ซม. × สูง 83 ซม.\n* **สถานะสต็อก:** มีสินค้า\n\nหากต้องการให้ตรวจเช็คว่าพอดีกับพื้นที่ห้องของคุณ หรือต้องการดูตัวเลือกอื่นเพิ่มเติม บอกได้เลยนะครับ!",
+      "previous_reply": null,
+      "tool_calls": [
+        {
+          "name": "searchFurniture",
+          "args": {
+            "limit": 12,
+            "category": "sofa"
+          }
+        }
+      ],
+      "iterations": 2,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": [
+        {
+          "id": "homepro-sofa-1152034",
+          "name_th": "โซฟา BOFA SOUTH สีครีม",
+          "name_en": "SOFA BOFA SOUTH CREAM",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "cream",
+          "material": "wood",
+          "price_thb": 2290,
+          "width_cm": 125,
+          "depth_cm": 77,
+          "height_cm": 74,
+          "image_url": "/product-images/homepro-sofa-1152034.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1152034"
+        },
+        {
+          "id": "homepro-sofa-1279577",
+          "name_th": "โซฟาเบด FURDINI IVA สีน้ำตาล",
+          "name_en": "SOFA BED FURDINI IVA BROWN",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "brown",
+          "material": "fabric",
+          "price_thb": 3990,
+          "width_cm": 88,
+          "depth_cm": 83,
+          "height_cm": 80.5,
+          "image_url": "/product-images/homepro-sofa-1279577.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1279577"
+        },
+        {
+          "id": "ikea-sofa-vretstorp-59491237",
+          "name_th": "VRETSTORP เวรียทส์ทอร์ป โซฟาเบด 3 ที่นั่ง - คิลันดา ไลท์เบจ",
+          "name_en": "VRETSTORP 3-seat sofa bed kilanda light beige",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "beige",
+          "material": "fabric",
+          "price_thb": 20990,
+          "width_cm": 244,
+          "depth_cm": 96,
+          "height_cm": 91,
+          "image_url": "/product-images/ikea-sofa-vretstorp-59491237.jpg",
+          "in_stock": true,
+          "source_url": "https://www.ikea.com/th/th/p/vretstorp-3-seat-sofa-bed-kilanda-light-beige-s59491237/"
+        },
+        {
+          "id": "ikea-sofa-vimle-80466702",
+          "name_th": "VIMLE วิมเล โครงโซฟาเบด2ที่นั่ง - กรานน์/บุมสตอด ดำ",
+          "name_en": "VIMLE frame 2-seat sofa bed section grann bomstad black",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "black",
+          "material": null,
+          "price_thb": 24000,
+          "width_cm": 160,
+          "depth_cm": 98,
+          "height_cm": 83,
+          "image_url": "/product-images/ikea-sofa-vimle-80466702.jpg",
+          "in_stock": true,
+          "source_url": "https://www.ikea.com/th/th/p/vimle-frame-2-seat-sofa-bed-section-grann-bomstad-black-80466702/"
+        }
+      ],
+      "comparison": null,
+      "design": null,
+      "preferences": {
+        "style": null,
+        "budget_thb": null,
+        "category": "sofa"
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 8866,
+      "first_token_ms": 7531,
+      "usage": {
+        "in": 8647,
+        "out": 131,
+        "think": 457
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "262 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "ตรวจไป 1 จำนวน ไม่มีตัวไหนนอกฐานข้อมูล"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "คำตอบไม่ได้บอกตัวเลขช่องว่าง"
+        },
+        {
+          "name": "ราคาที่ตอบตรงกับฐานข้อมูล (24,000 บาท)",
+          "ok": true,
+          "detail": "พบ 24,000 บาท"
+        }
+      ]
+    },
+    {
+      "name": "price_of_missing_product",
+      "title": "สินค้าที่ไม่มีในแคตตาล็อก",
+      "intent": "ให้บอทบอกตรง ๆ ว่าไม่มีชิ้นนั้นในฐานข้อมูล แทนที่จะกุราคาขึ้นมาเอง (ชื่อที่ถามถูกเลือกจากรายการที่แคตตาล็อกไม่มีจริงตอนรัน)",
+      "prompt": "ราคา โซฟาคัทจ้า 3 ที่นั่ง เท่าไหร่",
+      "follow_up": null,
+      "turn": 7,
+      "turns": 1,
+      "ok": true,
+      "reply": "ในแคตตาล็อกปัจจุบันยังไม่มีข้อมูลของรุ่น **\"คัทจ้า\"** โดยตรงครับ \n\nแต่ถ้าเป็น **โซฟา 3 ที่นั่ง** ในระบบมีรุ่นนี้ครับ:\n\n* **VRETSTORP (เวรียทส์ทอร์ป) โซฟาเบด 3 ที่นั่ง - คิลันดา ไลท์เบจ**\n  * **ราคา:** 20,990 บาท\n  * **ขนาด:** กว้าง 244 x ลึก 96 x สูง 91 ซม.\n  * **สถานะ:** มีสินค้าในสต็อก\n\nหากคุณลูกค้ามีชื่อรุ่นภาษาอังกฤษ หรือต้องการให้ค้นหาโซฟาตามงบประมาณและสไตล์ที่ชอบเพิ่มเติม แจ้งได้เลยนะครับ!",
+      "previous_reply": null,
+      "tool_calls": [
+        {
+          "name": "searchFurniture",
+          "args": {
+            "category": "sofa"
+          }
+        }
+      ],
+      "iterations": 2,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": [
+        {
+          "id": "homepro-sofa-1152034",
+          "name_th": "โซฟา BOFA SOUTH สีครีม",
+          "name_en": "SOFA BOFA SOUTH CREAM",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "cream",
+          "material": "wood",
+          "price_thb": 2290,
+          "width_cm": 125,
+          "depth_cm": 77,
+          "height_cm": 74,
+          "image_url": "/product-images/homepro-sofa-1152034.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1152034"
+        },
+        {
+          "id": "homepro-sofa-1279577",
+          "name_th": "โซฟาเบด FURDINI IVA สีน้ำตาล",
+          "name_en": "SOFA BED FURDINI IVA BROWN",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "brown",
+          "material": "fabric",
+          "price_thb": 3990,
+          "width_cm": 88,
+          "depth_cm": 83,
+          "height_cm": 80.5,
+          "image_url": "/product-images/homepro-sofa-1279577.jpg",
+          "in_stock": true,
+          "source_url": "https://www.homepro.co.th/p/1279577"
+        },
+        {
+          "id": "ikea-sofa-vretstorp-59491237",
+          "name_th": "VRETSTORP เวรียทส์ทอร์ป โซฟาเบด 3 ที่นั่ง - คิลันดา ไลท์เบจ",
+          "name_en": "VRETSTORP 3-seat sofa bed kilanda light beige",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "beige",
+          "material": "fabric",
+          "price_thb": 20990,
+          "width_cm": 244,
+          "depth_cm": 96,
+          "height_cm": 91,
+          "image_url": "/product-images/ikea-sofa-vretstorp-59491237.jpg",
+          "in_stock": true,
+          "source_url": "https://www.ikea.com/th/th/p/vretstorp-3-seat-sofa-bed-kilanda-light-beige-s59491237/"
+        },
+        {
+          "id": "ikea-sofa-vimle-80466702",
+          "name_th": "VIMLE วิมเล โครงโซฟาเบด2ที่นั่ง - กรานน์/บุมสตอด ดำ",
+          "name_en": "VIMLE frame 2-seat sofa bed section grann bomstad black",
+          "category": "sofa",
+          "style_tags": [
+            "modern",
+            "scandinavian"
+          ],
+          "color": "black",
+          "material": null,
+          "price_thb": 24000,
+          "width_cm": 160,
+          "depth_cm": 98,
+          "height_cm": 83,
+          "image_url": "/product-images/ikea-sofa-vimle-80466702.jpg",
+          "in_stock": true,
+          "source_url": "https://www.ikea.com/th/th/p/vimle-frame-2-seat-sofa-bed-section-grann-bomstad-black-80466702/"
+        }
+      ],
+      "comparison": null,
+      "design": null,
+      "preferences": {
+        "style": null,
+        "budget_thb": null,
+        "category": "sofa"
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 10265,
+      "first_token_ms": 8367,
+      "usage": {
+        "in": 8464,
+        "out": 177,
+        "think": 469
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "398 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "ตรวจไป 1 จำนวน ไม่มีตัวไหนนอกฐานข้อมูล"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "คำตอบไม่ได้บอกตัวเลขช่องว่าง"
+        },
+        {
+          "name": "เรียกเครื่องมือ searchFurniture",
+          "ok": true,
+          "detail": "เรียกไป 1 ครั้ง"
+        },
+        {
+          "name": "คำตอบมีคำว่า \"ไม่มีข้อมูล\" หรือ \"ไม่มีในแคตตาล็อก\" หรือ \"ไม่มีในฐานข้อมูล\" หรือ \"ไม่มีในระบบ\" หรือ \"ไม่มีแคตตาล็อก\" หรือ \"ไม่มีสินค้า\" หรือ \"ไม่มีชิ้น\" หรือ \"ไม่มีตัว\" หรือ \"ไม่พบ\" หรือ \"ยังไม่มี\" หรือ \"ไม่อยู่ใน\"",
+          "ok": true,
+          "detail": "เจอคำว่า \"ไม่มีข้อมูล\""
+        }
+      ]
+    },
+    {
+      "name": "design_a_room",
+      "title": "แต่งห้องทั้งห้องตามคำขอ",
+      "intent": "ให้บอทถามยืนยันก่อนวาด แล้ววาดห้องที่มีเฟอร์นิเจอร์จริงจากแคตตาล็อก โดยขนาดห้องและขนาดชิ้นสินค้าต้องมาจากคำพูดของผู้ใช้เอง",
+      "prompt": "ฉันอยากได้ห้องนอนสไตล์มินิมอล ขนาด 24 ตารางเมตร ธีมสีชมพู-ขาวพาสเทล ในนั้นต้องมีเตียง 3.5 ฟุต และโคมไฟที่เหมาะกับการเลี้ยงสัตว์",
+      "follow_up": "งบประมาณ 30,000 บาทครับ เอาแบบนี้เลย วาดให้ดูหน่อย",
+      "turn": 8,
+      "turns": 2,
+      "ok": true,
+      "reply": "ออกแบบและวาดภาพห้องนอนให้เรียบร้อยแล้วครับ!\n\n### รายละเอียดเฟอร์นิเจอร์ที่เลือกใช้:\n1. **เตียงเหล็ก 3.5 ฟุต THAIBULL SST032-105N สีขาว**\n   - **ราคา:** 3,990 บาท\n   - **ขนาด:** กว้าง 111 ซม. x ลึก 206 ซม. x สูง 86 ซม.\n   - *หมายเหตุ:* เตียงในแคตตาล็อกมีความกว้าง 111 ซม. (ต่างจากขนาด 3.5 ฟุตมาตรฐานที่ 106.68 ซม. อยู่ 4.3 ซม.)\n\n2. **ZEBRASÄV เซียบราฟเซิฟ โคมแขวนเพดาน (ขาว/พลาสติก 46 ซม.)**\n   - **ราคา:** 199 บาท\n   - **ขนาด:** กว้าง 46 ซม. x ลึก 46 ซม. x สูง 24 ซม.\n   - *จุดเด่น:* เป็นโคมไฟแขวนเพดาน ช่วยให้ปลอดภัยจากสัตว์เลี้ยง ไม่เกะกะพื้นที่ และไม่ต้องกังวลเรื่องการชนล้มหรือสายไฟบนพื้น\n\n---\n- **ราคารวมทั้งหมด:** 4,189 บาท (อยู่ในงบประมาณ 30,000 บาท)\n- **ภาพห้องที่ออกแบบ:** [ดูภาพห้องนอนของคุณได้ที่นี่](https://nuojdxuqeqdkvkywxhvx.supabase.co/storage/v1/object/sign/room-photos/674d20bb-df96-42cb-a10e-b9adb74f8620/9565c725-9e85-40d1-a21b-6ed14f80834b.jpg?token=eyJraWQiOiJjZDU4OGY5OS0zMWNkLTRlMGQtYTZhYy0zZTFiMWM3Y2M4NDQiLCJhbGciOiJIUzUxMiJ9.eyJ1cmwiOiJyb29tLXBob3Rvcy82NzRkMjBiYi1kZjk2LTQyY2ItYTEwZS1iOWFkYjc0Zjg2MjAvOTU2NWM3MjUtOWU4NS00MGQxLWEyMWItNmVkMTRmODA4MzRiLmpwZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3OTM0NzExMDcsImV4cCI6MTc5MzQ3NDcwN30.1ELjcUt-LjQ3HAazj9Gdf2kJXhJ2IVuE0LnbV7N0J4z8f9_3yvdetGjpFmerVBiyvMhnwns7Hu_Xfg3P2mBmDA)\n\nหากต้องการปรับแต่งเพิ่มเติม เช่น เพิ่มโต๊ะทำงาน ตู้เสื้อผ้า หรือเปลี่ยนโทนสี แจ้งได้เลยนะครับ!",
+      "previous_reply": "ยินดีช่วยออกแบบห้องนอนให้ครับ! \n\nผมขอสรุปแผนการออกแบบเบื้องต้นตามที่คุณต้องการดังนี้นะครับ:\n- **ประเภทห้อง:** ห้องนอน\n- **ขนาดห้อง:** 24 ตารางเมตร\n- **สไตล์:** มินิมอล (Minimalist)\n- **ธีมสี:** ชมพู-ขาวพาสเทล\n- **เฟอร์นิเจอร์หลัก:** เตียงนอนขนาด 3.5 ฟุต และโคมไฟที่ปลอดภัย/เหมาะสำหรับบ้านที่เลี้ยงสัตว์\n\nเพื่อให้การเลือกเฟอร์นิเจอร์ตรงใจที่สุด คุณมี**งบประมาณรวม**ในใจประมาณเท่าไรครับ? \n\nหากแผนนี้เรียบร้อยถูกต้องแล้ว ตอบยืนยันได้เลยนะครับ ผมจะเริ่มออกแบบและวาดภาพห้องจริงให้ชมทันทีครับ!",
+      "tool_calls": [
+        {
+          "name": "designRoom",
+          "args": {
+            "items": [
+              {
+                "category": "bed",
+                "requested_width": "3.5 ฟุต"
+              },
+              {
+                "category": "lamp",
+                "note": "เหมาะกับการเลี้ยงสัตว์"
+              }
+            ],
+            "purpose": "ห้องนอน",
+            "style": "minimalist",
+            "confirmed": true,
+            "room_size": "24 ตารางเมตร",
+            "budget_thb": 30000,
+            "theme": "สีชมพู-ขาวพาสเทล"
+          }
+        }
+      ],
+      "iterations": 2,
+      "hit_iteration_cap": false,
+      "truncated": false,
+      "products": null,
+      "comparison": null,
+      "design": {
+        "image_id": "8318cf43-37c7-4fa8-8977-89f2f2e25537",
+        "url": "https://nuojdxuqeqdkvkywxhvx.supabase.co/storage/v1/object/sign/room-photos/674d20bb-df96-42cb-a10e-b9adb74f8620/9565c725-9e85-40d1-a21b-6ed14f80834b.jpg?token=eyJraWQiOiJjZDU4OGY5OS0zMWNkLTRlMGQtYTZhYy0zZTFiMWM3Y2M4NDQiLCJhbGciOiJIUzUxMiJ9.eyJ1cmwiOiJyb29tLXBob3Rvcy82NzRkMjBiYi1kZjk2LTQyY2ItYTEwZS1iOWFkYjc0Zjg2MjAvOTU2NWM3MjUtOWU4NS00MGQxLWEyMWItNmVkMTRmODA4MzRiLmpwZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3OTM0NzExMDcsImV4cCI6MTc5MzQ3NDcwN30.1ELjcUt-LjQ3HAazj9Gdf2kJXhJ2IVuE0LnbV7N0J4z8f9_3yvdetGjpFmerVBiyvMhnwns7Hu_Xfg3P2mBmDA",
+        "expires_at": "2026-10-31T19:25:07.713Z",
+        "version": 1,
+        "style": "minimalist",
+        "theme": "สีชมพู-ขาวพาสเทล",
+        "purpose": "ห้องนอน",
+        "room_size_m2": 24,
+        "width_cm": 600,
+        "depth_cm": 400,
+        "total_price_thb": 4189,
+        "pieces": [
+          {
+            "product_id": "homepro-bed-1266700",
+            "name_th": "เตียงเหล็ก 3.5 ฟุต THAIBULL SST032-105N สีขาว",
+            "name_en": "STEEL BED FRAME 3.5FT THAIBULL SST032-105N WHITE",
+            "category": "bed",
+            "color": "white",
+            "material": "steel",
+            "price_thb": 3990,
+            "width_cm": 111,
+            "depth_cm": 206,
+            "height_cm": 86,
+            "image_url": "/product-images/homepro-bed-1266700.jpg",
+            "note": "",
+            "requested_width_cm": 106.68,
+            "width_gap_cm": 4.3
+          },
+          {
+            "product_id": "ikea-lamp-zebrasaev-10522481",
+            "name_th": "ZEBRASÄV เซียบราฟเซิฟ โคมแขวนเพดาน - ขาว/พลาสติก 46 ซม.",
+            "name_en": "ZEBRASAEV pendant lamp white plastic",
+            "category": "lamp",
+            "color": "white",
+            "material": "plastic",
+            "price_thb": 199,
+            "width_cm": 46,
+            "depth_cm": 46,
+            "height_cm": 24,
+            "image_url": "/product-images/ikea-lamp-zebrasaev-10522481.jpg",
+            "note": "เหมาะกับการเลี้ยงสัตว์",
+            "requested_width_cm": null,
+            "width_gap_cm": null
+          }
+        ],
+        "instruction": null,
+        "notes": [
+          "เตียงเหล็ก 3.5 ฟุต THAIBULL SST032-105N สีขาว ที่มีในแคตตาล็อกกว้าง 111 ซม. (ที่ขอไว้ 106.68 ซม. ต่างกัน 4.3 ซม.)"
+        ],
+        "image_quota_left": 9
+      },
+      "preferences": {
+        "style": null,
+        "budget_thb": null,
+        "category": null
+      },
+      "chat_turns_left": 20,
+      "latency_ms": 31962,
+      "first_token_ms": 5918,
+      "usage": {
+        "in": 13053,
+        "out": 982,
+        "think": 1109
+      },
+      "checks": [
+        {
+          "name": "มีคำตอบกลับ",
+          "ok": true,
+          "detail": "487 ตัวอักษร"
+        },
+        {
+          "name": "โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "คำตอบไม่มีตัวเลขราคาให้ตรวจ"
+        },
+        {
+          "name": "ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "คำตอบไม่ได้บอกตัวเลขช่องว่าง"
+        },
+        {
+          "name": "รอบที่ 2: มีคำตอบกลับ",
+          "ok": true,
+          "detail": "1340 ตัวอักษร"
+        },
+        {
+          "name": "รอบที่ 2: โมเดลตอบได้จริง (ไม่ถูกตัดกลางคัน)",
+          "ok": true,
+          "detail": "โมเดลตอบเอง"
+        },
+        {
+          "name": "รอบที่ 2: ตัวเลขเงินทุกตัวในคำตอบต้องมาจากฐานข้อมูลหรือคำนวณจากตัวเลขเหล่านั้น",
+          "ok": true,
+          "detail": "ตรวจไป 4 จำนวน ไม่มีตัวไหนนอกฐานข้อมูล"
+        },
+        {
+          "name": "รอบที่ 2: ตัวเลขช่องว่างที่บอกในคำตอบต้องมาจากผลตรวจของเครื่องมือ",
+          "ok": true,
+          "detail": "คำตอบไม่ได้บอกตัวเลขช่องว่าง"
+        },
+        {
+          "name": "เรียกเครื่องมือ designRoom",
+          "ok": true,
+          "detail": "เรียกไป 1 ครั้ง"
+        },
+        {
+          "name": "รอบแรกยังไม่วาดห้อง",
+          "ok": true,
+          "detail": "รอบแรกมีแต่คำตอบ ยังไม่มีภาพห้อง"
+        },
+        {
+          "name": "บอทถามยืนยันก่อนวาดห้อง",
+          "ok": true,
+          "detail": "ถามด้วยคำว่า \"ยืนยัน\""
+        },
+        {
+          "name": "ได้ภาพห้องที่วาดแล้ว",
+          "ok": true,
+          "detail": "ได้ภาพห้องเวอร์ชันที่ 1 (2 ชิ้น)"
+        },
+        {
+          "name": "สไตล์ห้องตรงกับที่ผู้ใช้บอก",
+          "ok": true,
+          "detail": "\"minimalist\""
+        },
+        {
+          "name": "ขนาดห้องมาจากคำขอของผู้ใช้",
+          "ok": true,
+          "detail": "ได้ 24 ตร.ม. (600×400 ซม.) · ควรได้ 24 ตร.ม. (600×400 ซม.)"
+        },
+        {
+          "name": "ห้องมีชิ้นที่ผู้ใช้ขอครบ",
+          "ok": true,
+          "detail": "มีครบ: bed, lamp"
+        },
+        {
+          "name": "เฟอร์นิเจอร์ในห้องเป็นสินค้าจริงจากแคตตาล็อก",
+          "ok": true,
+          "detail": "ทั้ง 2 ชิ้นตรงกับแถวในแคตตาล็อก"
+        },
+        {
+          "name": "ราคารวมเท่ากับผลรวมของชิ้นสินค้า",
+          "ok": true,
+          "detail": "บอก 4,189 บาท · ผลรวม 4,189 บาท"
+        },
+        {
+          "name": "ราคารวมไม่เกินงบที่ผู้ใช้ให้",
+          "ok": true,
+          "detail": "4,189 บาท (งบ 30,000 บาท)"
+        },
+        {
+          "name": "ขนาดที่ขอมาจากคำพูดของผู้ใช้เอง",
+          "ok": true,
+          "detail": "\"3.5 ฟุต\" อ่านได้ 106.68 ซม."
+        },
+        {
+          "name": "เลือกชิ้นที่ใกล้ขนาดที่ผู้ใช้ขอที่สุด",
+          "ok": true,
+          "detail": "ขอ 106.68 ซม. · ของที่แคตตาล็อกมีใกล้สุด 4.319999999999993 ซม. · ชิ้นที่ได้ต่าง 4.3 ซม."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "scenarios": 8,
+    "scenarios_passed": 8,
+    "checks": 64,
+    "checks_failed": 0
+  }
+}

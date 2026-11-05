@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="เก้าอี้ยูดดัน">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf9"/>
+      <stop offset="1" stop-color="#f4ecdf"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <ellipse cx="320" cy="254" rx="250" ry="170" fill="url(#glow)"/>
+  <line x1="0" y1="372" x2="640" y2="372" stroke="#e2d6c1" stroke-width="3"/>
+  <ellipse cx="320" cy="376" rx="212" ry="16" fill="#3a332a" fill-opacity="0.07"/>
+
+  <rect x="228" y="132" width="184" height="118" rx="20" fill="#c9a877" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="248" y="150" width="144" height="82" rx="14" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="214" y="246" width="212" height="30" rx="12" fill="#c9a877" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="214" y="246" width="212" height="15" rx="8" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="222" y="276" width="14" height="90" rx="5" fill="#9d835d" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="404" y="276" width="14" height="90" rx="5" fill="#9d835d" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" />
+
+  <g font-family="'Noto Sans Thai', -apple-system, 'Segoe UI', sans-serif" fill="#3a332a" fill-opacity="0.5">
+    <text x="30" y="456" font-size="18">เก้าอี้ยูดดัน</text>
+    <text x="30" y="474" font-size="13" fill-opacity="0.38">YUDDAN dining chair · 48 × 52 × 86 ซม.</text>
+  </g>
+</svg>

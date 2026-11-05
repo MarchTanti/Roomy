@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="โซฟาวิตาน 3 ที่นั่ง">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf9"/>
+      <stop offset="1" stop-color="#f4ecdf"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <ellipse cx="320" cy="254" rx="250" ry="170" fill="url(#glow)"/>
+  <line x1="0" y1="372" x2="640" y2="372" stroke="#e2d6c1" stroke-width="3"/>
+  <ellipse cx="320" cy="376" rx="212" ry="16" fill="#3a332a" fill-opacity="0.07"/>
+
+  <rect x="120" y="150" width="400" height="104" rx="24" fill="#93a888" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="142" y="168" width="174" height="64" rx="16" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="324" y="168" width="174" height="64" rx="16" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="140" y="242" width="360" height="78" rx="18" fill="#93a888" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="158" y="258" width="162" height="48" rx="14" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="320" y="258" width="162" height="48" rx="14" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.26"/><rect x="96" y="190" width="48" height="130" rx="20" fill="#93a888" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="496" y="190" width="48" height="130" rx="20" fill="#93a888" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="128" y="320" width="16" height="46" rx="5" fill="#8d7c66" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="496" y="320" width="16" height="46" rx="5" fill="#8d7c66" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" />
+
+  <g font-family="'Noto Sans Thai', -apple-system, 'Segoe UI', sans-serif" fill="#3a332a" fill-opacity="0.5">
+    <text x="30" y="456" font-size="18">โซฟาวิตาน 3 ที่นั่ง</text>
+    <text x="30" y="474" font-size="13" fill-opacity="0.38">Vitan 3-seat sofa · 205 × 90 × 82 ซม.</text>
+  </g>
+</svg>

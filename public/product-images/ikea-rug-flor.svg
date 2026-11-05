@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="พรมลายฟลอร์">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf9"/>
+      <stop offset="1" stop-color="#f4ecdf"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <ellipse cx="320" cy="254" rx="250" ry="170" fill="url(#glow)"/>
+  <line x1="0" y1="372" x2="640" y2="372" stroke="#e2d6c1" stroke-width="3"/>
+  <ellipse cx="320" cy="376" rx="212" ry="16" fill="#3a332a" fill-opacity="0.07"/>
+
+  <rect x="96" y="254" width="448" height="116" rx="18" fill="#dcc9ac" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" /><rect x="118" y="268" width="404" height="88" rx="12" fill="#ffffff" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.3"/><rect x="140" y="286" width="360" height="52" rx="8" fill="#dcc9ac" stroke="#3a332a" stroke-opacity="0.13" stroke-width="2.5" fill-opacity="0.55"/><g stroke="#3a332a" stroke-opacity="0.3" stroke-width="4" stroke-linecap="round"><line x1="116" y1="258" x2="116" y2="280"/><line x1="146" y1="258" x2="146" y2="280"/><line x1="176" y1="258" x2="176" y2="280"/><line x1="206" y1="258" x2="206" y2="280"/><line x1="236" y1="258" x2="236" y2="280"/><line x1="266" y1="258" x2="266" y2="280"/><line x1="296" y1="258" x2="296" y2="280"/><line x1="326" y1="258" x2="326" y2="280"/><line x1="356" y1="258" x2="356" y2="280"/><line x1="386" y1="258" x2="386" y2="280"/><line x1="416" y1="258" x2="416" y2="280"/><line x1="446" y1="258" x2="446" y2="280"/><line x1="476" y1="258" x2="476" y2="280"/><line x1="506" y1="258" x2="506" y2="280"/><line x1="116" y1="344" x2="116" y2="366"/><line x1="146" y1="344" x2="146" y2="366"/><line x1="176" y1="344" x2="176" y2="366"/><line x1="206" y1="344" x2="206" y2="366"/><line x1="236" y1="344" x2="236" y2="366"/><line x1="266" y1="344" x2="266" y2="366"/><line x1="296" y1="344" x2="296" y2="366"/><line x1="326" y1="344" x2="326" y2="366"/><line x1="356" y1="344" x2="356" y2="366"/><line x1="386" y1="344" x2="386" y2="366"/><line x1="416" y1="344" x2="416" y2="366"/><line x1="446" y1="344" x2="446" y2="366"/><line x1="476" y1="344" x2="476" y2="366"/><line x1="506" y1="344" x2="506" y2="366"/></g>
+
+  <g font-family="'Noto Sans Thai', -apple-system, 'Segoe UI', sans-serif" fill="#3a332a" fill-opacity="0.5">
+    <text x="30" y="456" font-size="18">พรมลายฟลอร์</text>
+    <text x="30" y="474" font-size="13" fill-opacity="0.38">FLOR rug · 200 × 300 × 1 ซม.</text>
+  </g>
+</svg>

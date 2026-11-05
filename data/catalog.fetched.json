@@ -1,0 +1,842 @@
+[
+  {
+    "id": "homepro-armchair-888213900123",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/888213900123",
+    "name_th": "เก้าอี้พักผ่อนโยกได้ ELIFE สีส้มลายตาราง",
+    "name_en": "เก้าอี้พักผ่อนโยกได้ ELIFE สีส้มลายตาราง",
+    "category": "armchair",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "orange",
+    "material": "steel",
+    "price_thb": 1039,
+    "width_cm": 91,
+    "depth_cm": 117,
+    "height_cm": 70,
+    "image_url": "/product-images/homepro-armchair-888213900123.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-armchair-1298202",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1298202",
+    "name_th": "เก้าอี้พักผ่อนโยกได้ FURDINI FUNKEL สีเบจ",
+    "name_en": "ROCKING CHAIR FURDINI FUNKLE BEIGE",
+    "category": "armchair",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "beige",
+    "material": "fabric",
+    "price_thb": 2990,
+    "width_cm": 69,
+    "depth_cm": 85,
+    "height_cm": 97,
+    "image_url": "/product-images/homepro-armchair-1298202.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-armchair-viskafors-49443303",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/viskafors-1-5-seat-armchair-lejde-light-beige-brown-s49443303/",
+    "name_th": "VISKAFORS วิสกาฟอร์ช อาร์มแชร์ 1,5 ที่นั่ง - เลย์เด ไลท์เบจ/น้ำตาล",
+    "name_en": "VISKAFORS 1 5-seat armchair lejde light beige brown",
+    "category": "armchair",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "beige",
+    "material": "fabric",
+    "price_thb": 8590,
+    "width_cm": 134,
+    "depth_cm": 90,
+    "height_cm": 74,
+    "image_url": "/product-images/ikea-armchair-viskafors-49443303.jpg",
+    "in_stock": false
+  },
+  {
+    "id": "ikea-armchair-vimle-79477184",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vimle-armchair-with-wide-armrests-gunnared-medium-grey-s79477184/",
+    "name_th": "VIMLE วิมเล อาร์มแชร์ - พร้อมที่วางแขนกว้าง/กุนนาเรียด มีเดียมเกรย์",
+    "name_en": "VIMLE armchair with wide armrests gunnared medium grey",
+    "category": "armchair",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": null,
+    "material": null,
+    "price_thb": 10000,
+    "width_cm": 115,
+    "depth_cm": 98,
+    "height_cm": 83,
+    "image_url": "/product-images/ikea-armchair-vimle-79477184.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-bed-1266700",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1266700",
+    "name_th": "เตียงเหล็ก 3.5 ฟุต THAIBULL SST032-105N สีขาว",
+    "name_en": "STEEL BED FRAME 3.5FT THAIBULL SST032-105N WHITE",
+    "category": "bed",
+    "style_tags": [
+      "scandinavian",
+      "modern"
+    ],
+    "color": "white",
+    "material": "steel",
+    "price_thb": 3990,
+    "width_cm": 111,
+    "depth_cm": 206,
+    "height_cm": 86,
+    "image_url": "/product-images/homepro-bed-1266700.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-bed-vevelstad-79441821",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vevelstad-bed-frame-with-3-headboards-white-tolkning-rattan-s79441821/",
+    "name_th": "VEVELSTAD เวียเวลสตัด โครงเตียง+3 หัวเตียง - ขาว/โทลค์นิง หวาย 90x200 ซม.",
+    "name_en": "VEVELSTAD bed frame with 3 headboards white tolkning rattan",
+    "category": "bed",
+    "style_tags": [
+      "scandinavian",
+      "modern"
+    ],
+    "color": "white",
+    "material": "rattan",
+    "price_thb": 7990,
+    "width_cm": 96,
+    "depth_cm": 207,
+    "height_cm": 27,
+    "image_url": "/product-images/ikea-bed-vevelstad-79441821.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-bed-vitval-89303937",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vitval-loft-bed-frame-with-desk-top-white-light-grey-s89303937/",
+    "name_th": "VITVAL วิตวาล โครงเตียงสูง+ท็อปโต๊ะทำงาน - ขาว/เทาอ่อน 90x200 ซม.",
+    "name_en": "VITVAL loft bed frame with desk top white light grey",
+    "category": "bed",
+    "style_tags": [
+      "scandinavian",
+      "modern"
+    ],
+    "color": "grey",
+    "material": "metal",
+    "price_thb": 11390,
+    "width_cm": 97,
+    "depth_cm": 207,
+    "height_cm": 195,
+    "image_url": "/product-images/ikea-bed-vitval-89303937.jpg",
+    "in_stock": false
+  },
+  {
+    "id": "ikea-bed-utaker-19423863",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/utaker-stackable-bed-with-2-mattresses-pine-vannareid-extra-firm-s19423863/",
+    "name_th": "UTÅKER อูทัวเคร์ เตียงแบบซ้อนได้+ที่นอน2ชิ้น - ไม้สน/วานนารีด แน่นพิเศษ 80x200 ซม.",
+    "name_en": "UTAKER stackable bed with 2 mattresses pine vannareid extra firm",
+    "category": "bed",
+    "style_tags": [
+      "scandinavian",
+      "modern"
+    ],
+    "color": "beige",
+    "material": "wood",
+    "price_thb": 12970,
+    "width_cm": 83,
+    "depth_cm": 205,
+    "height_cm": 23,
+    "image_url": "/product-images/ikea-bed-utaker-19423863.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-cabinet-vuku-10339331",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vuku-wardrobe-white-10339331/",
+    "name_th": "VUKU วูคู ตู้เสื้อผ้า - ขาว 74x51x149 ซม.",
+    "name_en": "VUKU wardrobe white",
+    "category": "cabinet",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "white",
+    "material": "fabric",
+    "price_thb": 790,
+    "width_cm": 74,
+    "depth_cm": 51,
+    "height_cm": 149,
+    "image_url": "/product-images/ikea-cabinet-vuku-10339331.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-cabinet-1316399",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1316399",
+    "name_th": "ตู้เสื้อผ้า 2 บานเปิด FURDINI GOOD 120 ซม. สี NT OAK",
+    "name_en": "WARDROBE WITH 2 DOORS FURDINI GOOD 120CM NT OAK",
+    "category": "cabinet",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": null,
+    "material": "wood",
+    "price_thb": 3590,
+    "width_cm": 120,
+    "depth_cm": 55,
+    "height_cm": 179,
+    "image_url": "/product-images/homepro-cabinet-1316399.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-cabinet-visthus-30347617",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/visthus-wardrobe-grey-white-30347617/",
+    "name_th": "VISTHUS วิสธุส ตู้เสื้อผ้า - เทา/ขาว 122x59x216 ซม.",
+    "name_en": "VISTHUS wardrobe grey white",
+    "category": "cabinet",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "grey",
+    "material": "wood",
+    "price_thb": 12990,
+    "width_cm": 122,
+    "depth_cm": 59,
+    "height_cm": 216,
+    "image_url": "/product-images/ikea-cabinet-visthus-30347617.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-chair-1288968",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1288968",
+    "name_th": "เก้าอี้ทานข้าว FURDINI LAGUNA-X สีน้ำตาลอ่อน",
+    "name_en": "DINING CHAIR FURDINI LAGUNA-X LIGHT BROWN",
+    "category": "chair",
+    "style_tags": [
+      "modern",
+      "industrial"
+    ],
+    "color": "brown",
+    "material": "fabric",
+    "price_thb": 1950,
+    "width_cm": 55,
+    "depth_cm": 56.5,
+    "height_cm": 80.5,
+    "image_url": "/product-images/homepro-chair-1288968.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-chair-1248145",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1248145",
+    "name_th": "เก้าอี้ทานข้าว BENETTA OLIVIER สีเบจ",
+    "name_en": "DINING CHAIR BENETTA OLIVIER BEIGE",
+    "category": "chair",
+    "style_tags": [
+      "modern",
+      "industrial"
+    ],
+    "color": "beige",
+    "material": "fabric",
+    "price_thb": 2950,
+    "width_cm": 58.5,
+    "depth_cm": 63,
+    "height_cm": 83,
+    "image_url": "/product-images/homepro-chair-1248145.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-chair-yxstaby-20619996",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/yxstaby-gaming-lounge-chair-vissle-beige-20619996/",
+    "name_th": "YXSTABY อิกซ์ตาบี เก้าอี้พักผ่อนสำหรับเล่นเกม - วิสเล่ เบจ",
+    "name_en": "YXSTABY gaming lounge chair vissle beige",
+    "category": "chair",
+    "style_tags": [
+      "modern",
+      "industrial"
+    ],
+    "color": null,
+    "material": null,
+    "price_thb": 3290,
+    "width_cm": 72,
+    "depth_cm": 83,
+    "height_cm": 114,
+    "image_url": "/product-images/ikea-chair-yxstaby-20619996.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-desk-vittsjoe-50607440",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vittsjoe-desk-black-brown-glass-50607440/",
+    "name_th": "VITTSJÖ วิทท์เชอ โต๊ะทำงาน - น้ำตาลดำ/แก้ว/กระจก 110x60 ซม.",
+    "name_en": "VITTSJOE desk black brown glass",
+    "category": "desk",
+    "style_tags": [
+      "modern",
+      "minimalist"
+    ],
+    "color": null,
+    "material": null,
+    "price_thb": 2990,
+    "width_cm": 110,
+    "depth_cm": 60,
+    "height_cm": 75,
+    "image_url": "/product-images/ikea-desk-vittsjoe-50607440.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-desk-utvisning-20586401",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/utvisning-gaming-desk-with-shelf-black-20586401/",
+    "name_th": "UTVISNING อูทวิสนิง โต๊ะเกมพร้อมชั้นวาง - ดำ 120x60 ซม.",
+    "name_en": "UTVISNING gaming desk with shelf black",
+    "category": "desk",
+    "style_tags": [
+      "modern",
+      "minimalist"
+    ],
+    "color": "black",
+    "material": null,
+    "price_thb": 3590,
+    "width_cm": 120,
+    "depth_cm": 60,
+    "height_cm": 92,
+    "image_url": "/product-images/ikea-desk-utvisning-20586401.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-desk-888184000247",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/888184000247",
+    "name_th": "โต๊ะคอมพิวเตอร์ STABLE รุ่น WS-SD-120B 120 ซม. สีโซลิด-เทา การ์ไฟท์",
+    "name_en": "COMPUTER DESK STABLE MODEL WS-SD-120B 120 CM SOLID-GRAPHITE GREY",
+    "category": "desk",
+    "style_tags": [
+      "modern",
+      "minimalist"
+    ],
+    "color": "grey",
+    "material": null,
+    "price_thb": 4900,
+    "width_cm": 120,
+    "depth_cm": 60,
+    "height_cm": 75,
+    "image_url": "/product-images/homepro-desk-888184000247.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-dresser-nordli-20401902",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/nordli-modular-chest-of-drawers-white-20401902/",
+    "name_th": "NORDLI นูร์ดลี กล่องลิ้นชัก - ขาว 40x45 ซม.",
+    "name_en": "NORDLI modular chest of drawers white",
+    "category": "dresser",
+    "style_tags": [
+      "scandinavian",
+      "modern"
+    ],
+    "color": "white",
+    "material": "wood",
+    "price_thb": 1190,
+    "width_cm": 40,
+    "depth_cm": 47,
+    "height_cm": 45,
+    "image_url": "/product-images/ikea-dresser-nordli-20401902.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-dresser-sundvik-70591301",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/sundvik-changing-table-chest-of-drawers-white-70591301/",
+    "name_th": "SUNDVIK ซุนด์วีค โต๊ะเปลี่ยนผ้าอ้อม/ตู้ลิ้นชัก - ขาว",
+    "name_en": "SUNDVIK changing table chest of drawers white",
+    "category": "dresser",
+    "style_tags": [
+      "scandinavian",
+      "modern"
+    ],
+    "color": "white",
+    "material": null,
+    "price_thb": 8990,
+    "width_cm": 78,
+    "depth_cm": 79,
+    "height_cm": 108,
+    "image_url": "/product-images/ikea-dresser-sundvik-70591301.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-lamp-zebrasaev-10522481",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/zebrasaev-pendant-lamp-white-plastic-10522481/",
+    "name_th": "ZEBRASÄV เซียบราฟเซิฟ โคมแขวนเพดาน - ขาว/พลาสติก 46 ซม.",
+    "name_en": "ZEBRASAEV pendant lamp white plastic",
+    "category": "lamp",
+    "style_tags": [
+      "minimalist",
+      "modern"
+    ],
+    "color": "white",
+    "material": "plastic",
+    "price_thb": 199,
+    "width_cm": 46,
+    "depth_cm": 46,
+    "height_cm": 24,
+    "image_url": "/product-images/ikea-lamp-zebrasaev-10522481.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-lamp-ytlaege-70540019",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/ytlaege-pendant-lamp-white-70540019/",
+    "name_th": "YTLÄGE อิทแลเกอ โคมแขวนเพดาน - ขาว 43 ซม.",
+    "name_en": "YTLAEGE pendant lamp white",
+    "category": "lamp",
+    "style_tags": [
+      "minimalist",
+      "modern"
+    ],
+    "color": "white",
+    "material": "plastic",
+    "price_thb": 990,
+    "width_cm": 43,
+    "depth_cm": 43,
+    "height_cm": 23,
+    "image_url": "/product-images/ikea-lamp-ytlaege-70540019.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-lamp-virrmo-70430780",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/virrmo-led-ceiling-lamp-nickel-plated-70430780/",
+    "name_th": "VIRRMO วีร์มู โคมไฟเพดาน LED - ชุบนิกเกิล 36 ซม. 800 ลูเมน",
+    "name_en": "VIRRMO led ceiling lamp nickel plated",
+    "category": "lamp",
+    "style_tags": [
+      "minimalist",
+      "modern"
+    ],
+    "color": "grey",
+    "material": "metal",
+    "price_thb": 1290,
+    "width_cm": 36,
+    "depth_cm": 36,
+    "height_cm": 7.6,
+    "image_url": "/product-images/ikea-lamp-virrmo-70430780.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-lamp-vindkast-40539084",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vindkast-floor-lamp-white-40539084/",
+    "name_th": "VINDKAST วินด์แคสต์ โคมไฟตั้งพื้น - ขาว",
+    "name_en": "VINDKAST floor lamp white",
+    "category": "lamp",
+    "style_tags": [
+      "minimalist",
+      "modern"
+    ],
+    "color": "white",
+    "material": "metal",
+    "price_thb": 1290,
+    "width_cm": 38,
+    "depth_cm": 38,
+    "height_cm": 144,
+    "image_url": "/product-images/ikea-lamp-vindkast-40539084.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-rug-vaexelfel-30638715",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vaexelfel-rug-low-pile-yellow-brown-30638715/",
+    "name_th": "VÄXELFEL เว็กเซลเฟียล พรมขนสั้น - เหลือง-น้ำตาล 133x195 ซม.",
+    "name_en": "VAEXELFEL rug low pile yellow brown",
+    "category": "rug",
+    "style_tags": [
+      "modern",
+      "japandi"
+    ],
+    "color": "beige",
+    "material": null,
+    "price_thb": 1990,
+    "width_cm": 133,
+    "depth_cm": 195,
+    "height_cm": 0.9,
+    "image_url": "/product-images/ikea-rug-vaexelfel-30638715.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-rug-vollerslev-90492569",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vollerslev-rug-high-pile-white-90492569/",
+    "name_th": "VOLLERSLEV วอลเลอเสลียฟ พรมขนยาว - ขาว 133x195 ซม.",
+    "name_en": "VOLLERSLEV rug high pile white",
+    "category": "rug",
+    "style_tags": [
+      "modern",
+      "japandi"
+    ],
+    "color": "white",
+    "material": null,
+    "price_thb": 5990,
+    "width_cm": 133,
+    "depth_cm": 195,
+    "height_cm": 2.9,
+    "image_url": "/product-images/ikea-rug-vollerslev-90492569.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-shelf-vihals-30483290",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vihals-shelving-unit-with-4-shelves-white-30483290/",
+    "name_th": "VIHALS วีฮาลส์ ชั้นวางของ 4 ชั้น - ขาว 95x37x90 ซม.",
+    "name_en": "VIHALS shelving unit with 4 shelves white",
+    "category": "shelf",
+    "style_tags": [
+      "industrial",
+      "loft"
+    ],
+    "color": null,
+    "material": null,
+    "price_thb": 1490,
+    "width_cm": 95,
+    "depth_cm": 37,
+    "height_cm": 90,
+    "image_url": "/product-images/ikea-shelf-vihals-30483290.jpg",
+    "in_stock": false
+  },
+  {
+    "id": "homepro-shelf-1098098",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1098098",
+    "name_th": "ชั้นวางของโล่ง FURDINI FRAME LR88T4 สีโครม",
+    "name_en": "4-TIER SHELVING UNIT FURDINI FRAME STEEL CHROME",
+    "category": "shelf",
+    "style_tags": [
+      "industrial",
+      "loft"
+    ],
+    "color": null,
+    "material": "steel",
+    "price_thb": 2490,
+    "width_cm": 120,
+    "depth_cm": 45,
+    "height_cm": 160,
+    "image_url": "/product-images/homepro-shelf-1098098.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-shelf-vittsjoe-80213314",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vittsjoe-shelving-unit-black-brown-glass-80213314/",
+    "name_th": "VITTSJÖ วิทท์เชอ ชั้นวางของ - น้ำตาลดำ/แก้ว/กระจก 100x175 ซม.",
+    "name_en": "VITTSJOE shelving unit black brown glass",
+    "category": "shelf",
+    "style_tags": [
+      "industrial",
+      "loft"
+    ],
+    "color": "black",
+    "material": "wood",
+    "price_thb": 2990,
+    "width_cm": 100,
+    "depth_cm": 36,
+    "height_cm": 175,
+    "image_url": "/product-images/ikea-shelf-vittsjoe-80213314.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-shelf-tonstad-00488878",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/tonstad-shelving-unit-off-white-00488878/",
+    "name_th": "TONSTAD ทุนสตัด ชั้นวางของ - ออฟไวท์ 120x37x116 ซม.",
+    "name_en": "TONSTAD shelving unit off white",
+    "category": "shelf",
+    "style_tags": [
+      "industrial",
+      "loft"
+    ],
+    "color": "white",
+    "material": "wood",
+    "price_thb": 5990,
+    "width_cm": 119.6,
+    "depth_cm": 37.1,
+    "height_cm": 115.5,
+    "image_url": "/product-images/ikea-shelf-tonstad-00488878.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-sofa-1152034",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1152034",
+    "name_th": "โซฟา BOFA SOUTH สีครีม",
+    "name_en": "SOFA BOFA SOUTH CREAM",
+    "category": "sofa",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "cream",
+    "material": "wood",
+    "price_thb": 2290,
+    "width_cm": 125,
+    "depth_cm": 77,
+    "height_cm": 74,
+    "image_url": "/product-images/homepro-sofa-1152034.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-sofa-1279577",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1279577",
+    "name_th": "โซฟาเบด FURDINI IVA สีน้ำตาล",
+    "name_en": "SOFA BED FURDINI IVA BROWN",
+    "category": "sofa",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "brown",
+    "material": "fabric",
+    "price_thb": 3990,
+    "width_cm": 88,
+    "depth_cm": 83,
+    "height_cm": 80.5,
+    "image_url": "/product-images/homepro-sofa-1279577.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-sofa-viskafors-79443373",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/viskafors-3-seat-sofa-lejde-light-beige-brown-s79443373/",
+    "name_th": "VISKAFORS วิสกาฟอร์ช โซฟา3ที่นั่ง - เลย์เด ไลท์เบจ/น้ำตาล",
+    "name_en": "VISKAFORS 3-seat sofa lejde light beige brown",
+    "category": "sofa",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "beige",
+    "material": "fabric",
+    "price_thb": 18950,
+    "width_cm": 224,
+    "depth_cm": 90,
+    "height_cm": 74,
+    "image_url": "/product-images/ikea-sofa-viskafors-79443373.jpg",
+    "in_stock": false
+  },
+  {
+    "id": "ikea-sofa-vretstorp-59491237",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vretstorp-3-seat-sofa-bed-kilanda-light-beige-s59491237/",
+    "name_th": "VRETSTORP เวรียทส์ทอร์ป โซฟาเบด 3 ที่นั่ง - คิลันดา ไลท์เบจ",
+    "name_en": "VRETSTORP 3-seat sofa bed kilanda light beige",
+    "category": "sofa",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "beige",
+    "material": "fabric",
+    "price_thb": 20990,
+    "width_cm": 244,
+    "depth_cm": 96,
+    "height_cm": 91,
+    "image_url": "/product-images/ikea-sofa-vretstorp-59491237.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-sofa-vimle-80466702",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vimle-frame-2-seat-sofa-bed-section-grann-bomstad-black-80466702/",
+    "name_th": "VIMLE วิมเล โครงโซฟาเบด2ที่นั่ง - กรานน์/บุมสตอด ดำ",
+    "name_en": "VIMLE frame 2-seat sofa bed section grann bomstad black",
+    "category": "sofa",
+    "style_tags": [
+      "modern",
+      "scandinavian"
+    ],
+    "color": "black",
+    "material": null,
+    "price_thb": 24000,
+    "width_cm": 160,
+    "depth_cm": 98,
+    "height_cm": 83,
+    "image_url": "/product-images/ikea-sofa-vimle-80466702.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-table-vittsjoe-80619540",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vittsjoe-laptop-table-white-glass-80619540/",
+    "name_th": "VITTSJÖ วิทท์เชอ โต๊ะแล็ปท็อป - ขาว/แก้ว/กระจก 100x36 ซม.",
+    "name_en": "VITTSJOE laptop table white glass",
+    "category": "table",
+    "style_tags": [
+      "scandinavian",
+      "minimalist"
+    ],
+    "color": null,
+    "material": null,
+    "price_thb": 1290,
+    "width_cm": 100,
+    "depth_cm": 36,
+    "height_cm": 74,
+    "image_url": "/product-images/ikea-table-vittsjoe-80619540.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-table-1231761",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1231761",
+    "name_th": "โต๊ะทานข้าว FURDINI CHAD สีขาว",
+    "name_en": "DINING TABLE FURDINI CHAD WHITE",
+    "category": "table",
+    "style_tags": [
+      "scandinavian",
+      "minimalist"
+    ],
+    "color": "white",
+    "material": null,
+    "price_thb": 1990,
+    "width_cm": 80,
+    "depth_cm": 80,
+    "height_cm": 74,
+    "image_url": "/product-images/homepro-table-1231761.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-table-vikhammer-80388974",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vikhammer-bedside-table-white-80388974/",
+    "name_th": "VIKHAMMER วีคฮัมเมอร์ โต๊ะข้างเตียง - ขาว 40x39 ซม.",
+    "name_en": "VIKHAMMER bedside table white",
+    "category": "table",
+    "style_tags": [
+      "scandinavian",
+      "minimalist"
+    ],
+    "color": "white",
+    "material": "wood",
+    "price_thb": 2490,
+    "width_cm": 40,
+    "depth_cm": 39,
+    "height_cm": 65,
+    "image_url": "/product-images/ikea-table-vikhammer-80388974.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-table-yxstaby-50620007",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/yxstaby-gaming-side-table-on-castors-oak-veneer-grey-50620007/",
+    "name_th": "YXSTABY อิกซ์ตาบี โต๊ะข้างมีล้อสำหรับเกม - วีเนียร์โอ๊ค/เทา",
+    "name_en": "YXSTABY gaming side table on castors oak veneer grey",
+    "category": "table",
+    "style_tags": [
+      "scandinavian",
+      "minimalist"
+    ],
+    "color": null,
+    "material": null,
+    "price_thb": 3990,
+    "width_cm": 50,
+    "depth_cm": 50,
+    "height_cm": 55,
+    "image_url": "/product-images/ikea-table-yxstaby-50620007.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-table-voxloev-60449266",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/voxloev-dining-table-light-bamboo-60449266/",
+    "name_th": "VOXLÖV วอกซ์เลิฟ โต๊ะอาหาร - ไม้ไผ่สีอ่อน 180x90 ซม.",
+    "name_en": "VOXLOEV dining table light bamboo",
+    "category": "table",
+    "style_tags": [
+      "scandinavian",
+      "minimalist"
+    ],
+    "color": "beige",
+    "material": "wood",
+    "price_thb": 8550,
+    "width_cm": 90,
+    "depth_cm": 180,
+    "height_cm": 75,
+    "image_url": "/product-images/ikea-table-voxloev-60449266.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-table-1277434",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1277434",
+    "name_th": "โต๊ะทานข้าว BENETTA WINSTON 200 ซม. สีขาว/ดำ",
+    "name_en": "DINING TABLE BENETTA WINSTON 200CM WHITE/BLACK",
+    "category": "table",
+    "style_tags": [
+      "scandinavian",
+      "minimalist"
+    ],
+    "color": "white",
+    "material": null,
+    "price_thb": 15990,
+    "width_cm": 200,
+    "depth_cm": 100,
+    "height_cm": 76.6,
+    "image_url": "/product-images/homepro-table-1277434.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "homepro-tv_stand-1283781",
+    "source": "homepro",
+    "source_url": "https://www.homepro.co.th/p/1283781",
+    "name_th": "ตู้วางทีวี FURDINI FINE 120 ซม. ลายไม้/ครีมขาวผ้า",
+    "name_en": "TV CABINET FURDINI FINE 120CM WOOD GRAIN/WHITE CREAM FABRIC PATTERN",
+    "category": "tv_stand",
+    "style_tags": [
+      "modern",
+      "minimalist"
+    ],
+    "color": "wood",
+    "material": "wood",
+    "price_thb": 1590,
+    "width_cm": 120,
+    "depth_cm": 40,
+    "height_cm": 54,
+    "image_url": "/product-images/homepro-tv_stand-1283781.jpg",
+    "in_stock": true
+  },
+  {
+    "id": "ikea-tv_stand-vihals-29576247",
+    "source": "ikea",
+    "source_url": "https://www.ikea.com/th/th/p/vihals-tv-storage-combination-white-s29576247/",
+    "name_th": "VIHALS วีฮาลส์ ชุดตู้ทีวี/ตู้เก็บของ - ขาว 285x37x140 ซม.",
+    "name_en": "VIHALS tv storage combination white",
+    "category": "tv_stand",
+    "style_tags": [
+      "modern",
+      "minimalist"
+    ],
+    "color": "white",
+    "material": null,
+    "price_thb": 7280,
+    "width_cm": 285,
+    "depth_cm": 37,
+    "height_cm": 140,
+    "image_url": "/product-images/ikea-tv_stand-vihals-29576247.jpg",
+    "in_stock": true
+  }
+]

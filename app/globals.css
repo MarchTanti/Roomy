@@ -1,0 +1,388 @@
+@import 'tailwindcss';
+
+/*
+ * The palette: a deep blue shopfront, a pale blue canvas, cards of white.
+ *
+ * Every colour is a semantic name — `surface`, `ink`, `brand` — instead of a
+ * shade number. The light and the dark version of the same token live side by
+ * side here, so the utility classes read like the design does: `bg-surface`,
+ * `text-ink-soft`, `border-line`. A component never has to know which mode it
+ * is in, and there is not a single `dark:` variant left in the app.
+ *
+ * The canvas is a pale blue and the cards on it are white, the way a sheet of
+ * paper sits on a blue desk. The header band is the one loud thing — a deep
+ * blue that says where you are. The accent, the colour of the one action
+ * that matters, is the vivid blue of the buttons and the links.
+ *
+ * Each token is a `light-dark()` pair: the light value and the dark value,
+ * and the browser picks one according to `color-scheme`. That is what makes
+ * the switch a single attribute on `<html>` instead of a class on every
+ * element — see `lib/theme.ts` for who decides which one is in effect.
+ */
+@theme inline {
+  --color-surface: var(--surface);
+  --color-raised: var(--raised);
+  --color-sunken: var(--sunken);
+  --color-tint: var(--tint);
+  --color-band: var(--band);
+  --color-band-mark: var(--band-mark);
+  --color-band-ink: var(--band-ink);
+  --color-band-ink-soft: var(--band-ink-soft);
+  --color-band-line: var(--band-line);
+  --color-line: var(--line);
+  --color-line-soft: var(--line-soft);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-brand: var(--brand);
+  --color-brand-fill: var(--brand-fill);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-ink: var(--brand-ink);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+
+  --font-sans: var(--font-noto-sans-thai), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-noto-serif-thai), ui-serif, Georgia, serif;
+
+  --radius-card: 1.25rem;
+}
+
+:root {
+  color-scheme: light;
+
+  /* The canvas: the pale blue the whole page sits on. */
+  --surface: light-dark(#ebf3fa, #14213a);
+  /* A card on the canvas. */
+  --raised: light-dark(#ffffff, #1b2c4b);
+  /* An inset: an input, a code chip, a sunken well. */
+  --sunken: light-dark(#f0f5fc, #22355a);
+  /* A whole band of the page, one step down from the canvas. */
+  --tint: light-dark(#dbe8f7, #0f1a2e);
+
+  /*
+   * The header band — the deep blue of the shopfront. It is the one place
+   * the colour is allowed to be loud, and it is the same blue in both
+   * themes: in the dark one it is a deep navy rather than a bright one.
+   */
+  --band: light-dark(#285098, #15305c);
+  /* The one mark of colour on the band. */
+  --band-mark: light-dark(#ffffff, #74b4ff);
+  --band-ink: light-dark(#ffffff, #e8f0fb);
+  --band-ink-soft: light-dark(#c4d6f0, #a2bcdd);
+  --band-line: light-dark(#1f3d78, #0d1d38);
+
+  --line: light-dark(#cfdcee, #2a3c60);
+  --line-soft: light-dark(#e2ebf6, #1e2d4a);
+
+  --ink: light-dark(#152238, #e9eff8);
+  --ink-soft: light-dark(#465873, #b0c2da);
+  --ink-faint: light-dark(#55677e, #8296b3);
+
+  /*
+   * The brand blue, in two shades, because one value cannot be both a
+   * background and a line of text: `brand` is bright enough to read as text
+   * on a dark canvas, `brand-fill` is deep enough to carry white text.
+   */
+  --brand: light-dark(#0058c8, #74b4ff);
+  --brand-fill: light-dark(#0058c8, #1f6fd6);
+  --brand-ink: light-dark(#ffffff, #ffffff);
+  --brand-soft: light-dark(#e2edfb, #1c3358);
+  --brand-ring: light-dark(rgb(0 88 200 / 0.16), rgb(116 180 255 / 0.22));
+
+  --ok: light-dark(#1f7a44, #79c98e);
+  --ok-soft: light-dark(#e6f4ea, #15301f);
+  --warn: light-dark(#8a5a06, #e0ae52);
+  --warn-soft: light-dark(#fdf3e0, #332a13);
+  --bad: light-dark(#a8321f, #e58a76);
+  --bad-soft: light-dark(#fdecea, #351c1b);
+
+  /*
+   * Shadows are colours too, and a brown shadow on a near-black canvas is no
+   * shadow at all — so the dark theme uses black, and a deeper one.
+   */
+  --shadow-sm: light-dark(rgb(21 48 92 / 0.06), rgb(0 0 0 / 0.35));
+  --shadow-md: light-dark(rgb(21 48 92 / 0.14), rgb(0 0 0 / 0.5));
+  --shadow-lg: light-dark(rgb(21 48 92 / 0.22), rgb(0 0 0 / 0.65));
+}
+
+/*
+ * The dark theme is the same palette read the other way round: the pale blue
+ * canvas turns to a deep navy, the header band to a deeper blue still, and
+ * the accent brightens so it keeps carrying the eye.
+ *
+ * `color-scheme` is what `light-dark()` reads, and it is inherited — so this
+ * one line changes the palette, the native widgets (scrollbars, the spinners
+ * on a number field, the caret) and the browser's own idea of the page.
+ */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scrollbar-color: var(--line) transparent;
+    /* The canvas, painted before the page has anything in it. */
+    background-color: var(--surface);
+  }
+
+  body {
+    background-color: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    /* Thai needs a little more line height than Latin to stay readable. */
+    line-height: 1.65;
+  }
+
+  ::selection {
+    background-color: var(--brand-soft);
+    color: var(--ink);
+  }
+
+  /* A visible focus ring, but only for keyboard users. */
+  :focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+    color: inherit;
+  }
+
+  /* A number input's spinners are noise on a form this small. */
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+
+/*
+ * A few shapes that are used in more than one file, so they are written once.
+ */
+@layer components {
+  .card {
+    background-color: var(--raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    /* Barely there — enough to lift the card off the canvas. */
+    box-shadow:
+      0 1px 2px var(--shadow-sm),
+      0 10px 28px -16px var(--shadow-md);
+  }
+
+  /* The one action a screen wants the user to take. */
+  .btn-primary {
+    background-color: var(--brand-fill);
+    color: var(--brand-ink);
+    border-radius: 9999px;
+    font-weight: 500;
+    transition:
+      filter 150ms ease,
+      opacity 150ms ease;
+  }
+
+  .btn-primary:hover:not(:disabled) {
+    filter: brightness(1.06);
+  }
+
+  .btn-primary:disabled {
+    opacity: 0.45;
+  }
+
+  /*
+   * The two buttons that live on the blue band.
+   *
+   * On the band the page's own blue is the background, so a button cannot be
+   * the same blue — the quiet one is simply the band showing through, and the
+   * one that matters is the band in reverse: white, with the band's blue for
+   * the words.
+   */
+  .btn-band {
+    border-radius: 9999px;
+    color: var(--band-ink);
+    transition:
+      background-color 150ms ease,
+      opacity 150ms ease;
+  }
+
+  .btn-band:hover:not(:disabled) {
+    background-color: rgb(255 255 255 / 0.14);
+  }
+
+  .btn-band:disabled {
+    opacity: 0.45;
+  }
+
+  .btn-band-primary {
+    background-color: var(--band-ink);
+    color: var(--band);
+    border-radius: 9999px;
+    font-weight: 500;
+    transition:
+      filter 150ms ease,
+      opacity 150ms ease;
+  }
+
+  .btn-band-primary:hover:not(:disabled) {
+    filter: brightness(1.06);
+  }
+
+  .btn-band-primary:disabled {
+    opacity: 0.45;
+  }
+
+  .btn-quiet {
+    border: 1px solid var(--line);
+    border-radius: 9999px;
+    background-color: var(--raised);
+    transition:
+      background-color 150ms ease,
+      border-color 150ms ease;
+  }
+
+  .btn-quiet:hover:not(:disabled) {
+    background-color: var(--sunken);
+  }
+
+  .btn-quiet:disabled {
+    opacity: 0.45;
+  }
+
+  /*
+   * A text field. One shape for every form in the app, so the eye reads the
+   * sign-in page and the settings page as the same product.
+   */
+  .field {
+    width: 100%;
+    border-radius: 0.875rem;
+    border: 1px solid var(--line);
+    background-color: var(--raised);
+    padding: 0.625rem 0.875rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--ink);
+    outline: none;
+    transition:
+      border-color 150ms ease,
+      box-shadow 150ms ease;
+  }
+
+  .field::placeholder {
+    color: var(--ink-faint);
+  }
+
+  .field:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px var(--brand-ring);
+  }
+
+  /*
+   * The composer: a rounded well at the bottom of the chat, with the chips
+   * and the text field inside one shape. It floats on a tinted band so the
+   * eye finds it first.
+   */
+  .composer {
+    background-color: var(--raised);
+    border: 1px solid var(--line);
+    border-radius: 1.75rem;
+    box-shadow:
+      0 2px 6px var(--shadow-sm),
+      0 16px 40px -20px var(--shadow-lg);
+  }
+
+  /* A shadow small enough to sit under a single control. */
+  .shadow-quiet {
+    box-shadow: 0 1px 2px var(--shadow-sm);
+  }
+
+  /* A thin scrollbar, because the chat column is the only thing that scrolls
+     for a long time. */
+  .scroll-quiet {
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+  }
+
+  /*
+   * The two icons of the theme button.
+   *
+   * CSS picks which one is showing, from the same attribute the palette
+   * reads — so the button never has to know which theme it is in, and the
+   * icon the server rendered can never disagree with the one on screen.
+   *
+   * The moon shows in the light theme: it is the theme you would switch to.
+   */
+  .theme-icon-moon {
+    display: block;
+  }
+
+  .theme-icon-sun {
+    display: none;
+  }
+
+  :root[data-theme='dark'] .theme-icon-moon {
+    display: none;
+  }
+
+  :root[data-theme='dark'] .theme-icon-sun {
+    display: block;
+  }
+}
+
+/* The message that just arrived. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-rise {
+  animation: rise 240ms cubic-bezier(0.22, 0.68, 0.3, 1) both;
+}
+
+/* The three dots that say "the model is working". */
+@keyframes blink {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+.animate-blink {
+  animation: blink 1.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
